@@ -1,0 +1,61 @@
+body{
+    background-image: url(/image/fundoverde.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid{
+    padding: 20px;
+}
+
+.navbarcss{
+    background-color: #a4ce9280;
+    backdrop-filter: blur(2px);
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+#imagem{
+    border-radius: 50px;
+    border: solid 0px;
+}
+
+.container{ 
+    background-color:white;
+    width:35rem;
+    height: 5rem; 
+    margin-top: 4rem;
+    border-radius: 1rem;
+
+h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+    
+}
+
+.cardapio1{
+    height:40vh;
+    background-color: white;
+    border: solid;
+    border-radius: 45px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 4rem;
+}
+
+#nossocardapio{
+
+}
+
+
+
+    
+
+
+
+
