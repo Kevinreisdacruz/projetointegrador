@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
 .cardmilk{
     width: 23rem;
     height: 13rem;
@@ -10,5 +12,8 @@
         padding-left: 25rem;
         padding-top: 4rem;
         color: black;
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 900;
+        font-style: normal;
     }
 }
