@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 
+body{
+    background-image: url(/image/fundocardapio.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .cardmilk{
     width: 23rem;
     height: 13rem;
@@ -7,13 +13,67 @@
     margin: 0.5rem;
     border: solid 5px;
 
-    h1{
+    h2{
         position: absolute;
         padding-left: 25rem;
         padding-top: 4rem;
-        color: black;
+        margin: 4rem;
+        margin-top: -4rem;
+        color: white;
         font-family: "Inknut Antiqua", serif;
         font-weight: 900;
         font-style: normal;
+    }
+}
+
+.fundotext{
+    position: absolute;
+    width: 57rem;
+    height: 13rem;
+    background-color: #bdd5d9;
+    margin-left: 25rem;
+    border-radius: 3rem;
+    opacity: 80%;
+    box-shadow: 10px 10px rgb(58, 129, 153);
+
+}
+
+.compre{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    height: 4rem;
+    width: 10rem;
+    background-color: white;
+    margin-left: 47.5rem;
+    margin-top: -5.3rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px ;
+    transition-duration: 2s;
+
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+}
+
+.compre:hover{
+    background-color: #bdd5d9;
+}
+
+.voltar{
+    height: 3rem;
+    width: 10rem;
+    background-color: black;
+    margin-left: 0.5rem;
+    position: absolute;
+    margin: 0.5rem;
+    margin-top: 2rem;
+
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
     }
 }
