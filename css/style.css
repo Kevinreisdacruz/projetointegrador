@@ -10,60 +10,64 @@ body{
 
 
 .navbarcss{
-    background-color: #a4ce9280;
     padding: 2rem;
-    backdrop-filter: blur(2px);
     position:sticky;
     top: 0;
     z-index: 1;
+    opacity: 90%;
+    width: 100%;
+
+    h5{
+
+        
+        font-family: "Ultra", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
 
 
 .fundosobrenos{
+    background-image: url(/image/sobrenos.jpeg);
     width: auto;
     height: 40rem;
-    background-color: #a4ce9280;
-
-}
-
-.textsobrenos{
     
-    float: right;
-    margin-top: -35rem;
-    margin-right: 2rem;
-    margin-left: 33rem;
+    
 
     h1{
-        
-        margin-top: -2.5rem;
-        margin-right: 20rem;
+       
+        text-align: center;
         font-family: "Ultra", serif;
         font-weight: 400;
         font-style: normal;
+        color: white;
         
     }
-
-    h5{
-        margin-top: 2.5rem;
+    
+    h3{
+        margin-left: 1rem;
+        margin-top: -0.5rem;
         font-family: "Anton SC", sans-serif;
         font-weight: 400;
         font-style: normal;
+        color: white;
+        
     }
+
 }
 
-.imgsobrenos{
-    
-    margin-top: -39rem;
-    margin-left: 0.5rem;
-    width: 30rem;
-    height: 38rem;
-    background-color: white;
-}   
+
+.footer{
+    width: auto;
+    height: 15rem;
+
+}
 
 .nossoscontatos{
     width: 100%;
     height: 20rem;
+    
     
 }
 .titulocontatos{
@@ -76,6 +80,10 @@ body{
     margin: 1.5rem;
 
 }
+
+
+
+
 
 
 
