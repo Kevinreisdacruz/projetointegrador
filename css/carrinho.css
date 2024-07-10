@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px){
+
+    .botao{
+        position: absolute;
+        top: 90%;
+    }
+}
+
 body {
     background-image: url(/image/fundoinicial.png);
     background-size: cover;
@@ -9,42 +17,35 @@ body {
 
 }
 
-h1{
-    text-align: center;
-}
+
 
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: center;
 }
+
+.todos-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .carrinho {
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    width: 50rem;
-    height: 100vh;
     background-color: white;
+    width: 50rem;
+    height: 96vh;
     border-radius: 15px;
     box-shadow: 2px 1px 4px 2px;
-    
-    .interior-carrinho{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        height: 15rem;
-        left: 15%;
         
-    }
 
     .card {
         background-color: white;
         width: 150px;
         height: 190px;
-        margin: auto;
         margin: 10px;
         border-radius: 15px;
         box-shadow: 0px 4px 4px 0px;
@@ -79,16 +80,30 @@ h1{
 
 
 }
-#comprar{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 2rem;
-    width: 15rem;
-    position: relative;
-    top: 40%;
-    padding: 4px;
-    text-align: center;
-    border-radius: 15px;
+
+.botao{
+    display: flex;
+    position: absolute;
+    top: 80%;
+}
+
+a{
     text-decoration: none;
-    background-color: blue;
-    color: white;
+}
+
+.style-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4bc4da;
+    border: none;
+    border-radius: 15px;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.style-botao:hover{
+    scale: 1.1;
 }
