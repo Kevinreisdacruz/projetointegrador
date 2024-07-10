@@ -85,8 +85,6 @@ body {
 
 .botao{
     display: flex;
-    position: absolute;
-    top: 80%;
     padding: 4rem;
 }
 
