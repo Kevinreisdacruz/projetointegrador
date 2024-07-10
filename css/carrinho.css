@@ -2,7 +2,7 @@
 
     .botao{
         position: absolute;
-        top: 90%;
+        bottom: 80%;
     }
 }
 
@@ -38,7 +38,7 @@ body {
     align-items: center;
     background-color: white;
     width: 50rem;
-    height: 96vh;
+    height: 90vh;
     border-radius: 15px;
     box-shadow: 2px 1px 4px 2px;
         
@@ -85,6 +85,8 @@ body {
 
 .botao{
     display: flex;
+    position: absolute;
+    top: 87%;
     padding: 4rem;
 }
 
