@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 
+@media only screen and (max-width: 600px) {
+    #seja-bemvindo{
+        font-size: 17px;
+    }
+}
+
 
 body{
     background-image: url(/image/fundoverde.png);
