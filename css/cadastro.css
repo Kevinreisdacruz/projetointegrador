@@ -12,6 +12,7 @@ body{
 }
 
 #caixa-login{
+    position: relative;
     background-color: white;
     width: 17.5rem;
     height: 18rem;
@@ -42,4 +43,19 @@ body{
     }
     
 }
+
+div{
+    position: relative;
+}
+
+div i{
+    font-size: 30px;
+    cursor: pointer;
+
+    position: absolute;
+    right: 15%;
+    margin-top: 4px;
+    
+}
+
 
