@@ -11,13 +11,15 @@ body{
     padding: 20px;
 }
 
+
+
 #caixa-login{
     position: relative;
     background-color: white;
     width: 17.5rem;
-    height: 18rem;
+    height: 20rem;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 10rem;
     padding: 50px;
     border-radius: 12px;
     text-align: center;
