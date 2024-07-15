@@ -7,6 +7,10 @@
     #seja-bemvindo{
         font-size: 17px;
     }
+
+    #frase{
+        font-size: 19.5px;
+    }
 }
 
 
@@ -40,7 +44,11 @@ body{
     width: auto;
     height: 40rem;
     
-    
+    .frase{
+        margin-top: 10rem;
+    }
+
+        
 
     h1{
        
