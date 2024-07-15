@@ -11,7 +11,9 @@
 
 
 body{
-    background-color: rgb(94, 197, 94);
+    background-image: url(/imagefundos/fundosobrenos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -35,8 +37,9 @@ body{
 
 
 .fundosobrenos{
-    
-    height: 35rem;
+   
+    width: auto;
+    height: 40rem;
     
     
 
