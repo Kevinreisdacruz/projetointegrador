@@ -5,58 +5,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CARRINHO</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
   <link rel="stylesheet" href="css/carrinho.css">
 </head>
 
 <body>
-  <a href="index.html">
-    <img src="imagelogos/setaesquerda.png" alt="">
-  </a>
-
-
-  <div class="container">
-    <div class="carrinho">
-      <h1>carrinho</h1>
-      <div class="botao">
-        <a href="index.html">
-          <button class="style-botao">COMPRAR</button>
-        </a>
-      </div>
-
-      <div class="todos-cards">
-        <div class="card">
-          <img src="imagemilkshake/milkmorango.png" alt="">
-          <div>
-            <h1>CHEESE CAKE</h1>
-            <h2>COM FRUTAS VERMELHAS</h2>
-            <span>R$ 30,00</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="imagepicoles/picolechocolate.png" alt="">
-          <div>
-            <h1>CHOCOLATE</h1>
-            <h2>SABOROSO E DELICIOSO</h2>
-            <span>R$ 15,90</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="imagemassa/massamenta.png" alt="">
-          <div>
-            <h1>MENTA</h1>
-            <h2>REFRESCANTE</h2>
-            <span>R$ 40,00</span>
-          </div>
-        </div>
-
-      </div>
+  
+  <div class="carrinho">
+    <div class="cabecalho-carrinho">
+      <button>
+        <i class="bi bi-arrow-left-short"></i>
+      </button>
+      <h3>Meu Carrinho</h3>
     </div>
-  <div>
+    <ul>
+      <li class="carrinho-item">
+        <div class="imagem">
+          <img src="imagemassa/massachocolate.png" alt="">
+        </div>
+         <div class="info">
+          <h4>Sorvete Chocolate</h4>
+          <div class="detalhes">
+            <div class="tempo">
+              <i class="bi bi-alarm-fill"></i>
+              <span>20 min</span>
+            </div>
+            <div class="status">
+              <i class="bi bi-box-fill"></i>
+              <span>pronto</span>
+            </div>
+          </div>
+           <div class="preco">
+              <p>R$40,00</p>
+              <div class="contador">
+                <i class="bi bi-dash"></i>
+                <span>1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+          </div> 
+        </div> 
+      </li>
 
+      <li class="carrinho-item">
+        <div class="imagem">
+          <img src="imagemilkshake/milkpistache.png" alt="">
+        </div>
+         <div class="info">
+          <h4>Milkshake Pistache</h4>
+          <div class="detalhes">
+            <div class="tempo">
+              <i class="bi bi-alarm-fill"></i>
+              <span>30 min</span>
+            </div>
+            <div class="status">
+              <i class="bi bi-box-fill"></i>
+              <span>pronto</span>
+            </div>
+          </div>
+           <div class="preco">
+              <p>R$25,00</p>
+              <div class="contador">
+                <i class="bi bi-dash"></i>
+                <span>1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+          </div> 
+        </div> 
+      </li>
 
+      <li class="carrinho-item">
+        <div class="imagem">
+          <img src="imagepicoles/picolemorango.png" alt="">
+        </div>
+         <div class="info">
+          <h4>Picole Morango</h4>
+          <div class="detalhes">
+            <div class="tempo">
+              <i class="bi bi-alarm-fill"></i>
+              <span>15 min</span>
+            </div>
+            <div class="status">
+              <i class="bi bi-box-fill"></i>
+              <span>pronto</span>
+            </div>
+          </div>
+           <div class="preco">
+              <p>R$15,90</p>
+              <div class="contador">
+                <i class="bi bi-dash"></i>
+                <span>1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+          </div> 
+        </div> 
+      </li>
 
+    </ul>
+  </div>
 
 
 </body>
