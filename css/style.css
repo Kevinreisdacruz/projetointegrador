@@ -152,8 +152,9 @@ body{
 }
 .footer-interior{
     
-    background: rgb(44,139,35);
-    background: linear-gradient(207deg, rgba(44,139,35,1) 21%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 84%);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
 }
 .rede-social{
     margin-left: 1.5rem;

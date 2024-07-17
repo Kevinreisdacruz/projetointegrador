@@ -15,11 +15,16 @@
 
 
 body {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #a8d2a0;
+}
+
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #a8d2a0;
+
 }
 
 .carrinho{
@@ -142,7 +147,84 @@ body {
         }
     }
 
+    #comprar{
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        width: 10rem;
+        transition: all ease-in-out 0.5s;
+    }
+
+    #comprar:hover{
+        scale: 1.1;
+    }
+
    
+}
+
+.fundosobrenos{
+    background-color: white;
+    opacity: 90%;
+    padding: 1rem;
+    width: 110rem;
+    height: 100%;
+    border-radius: 2rem;
+  
+    
+    #frase{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+        
+
+    h1{
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        
+        
+    }
+
+    h3{
+        margin-left: 1rem;
+        margin-top: -0.5rem;
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        
+    }
+
+}
+
+
+.footer{
+    width: auto;
+    height: 15rem;
+}
+.footer-interior{  
+    border-top: 1px solid #669D6B;
+    border-bottom: 1px solid #669D6B;
+    margin-top: 15px;
+}
+
+
+
+.rede-social{
+    margin-left: 1.5rem; 
+}
+
+.titulocontatos{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.contatos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin: 1.5rem;
+
 }
 
 
