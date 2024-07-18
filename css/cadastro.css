@@ -9,6 +9,9 @@ body{
 
 #seta{
     padding: 20px;
+      .img-seta{
+        background-color: #add6ae;
+    }
 }
 
 
