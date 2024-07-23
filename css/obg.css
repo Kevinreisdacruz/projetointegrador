@@ -43,6 +43,7 @@ body{
         border: none;
         cursor: pointer;
         float: right;
+        transition: all ease-in-out 0.5s;
     }
 
     
@@ -60,11 +61,12 @@ body{
 
         }
     }
+
+    .btn:hover{
+        scale: 1.1;
+    }
 }
 
-.footer{
-    
-}
 .footer-interior{
     width: auto;
     margin-top: 20rem;
