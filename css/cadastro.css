@@ -9,9 +9,14 @@ body{
 
 #seta{
     padding: 20px;
-      .img-seta{
+    .img-seta{
         background-color: #add6ae;
+        transition: all ease-in-out 0.5s;
     }
+}
+
+.img-seta:hover{
+    scale: 1.4;
 }
 
 
