@@ -171,6 +171,10 @@ body {
     border-top: 1px solid #669D6B;
     border-bottom: 1px solid #669D6B;
     margin-top: 15px;
+
+    a{
+        text-decoration: none;
+    }
 }
 
 
