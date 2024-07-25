@@ -59,7 +59,9 @@ body {
     width: 800px;
     height: min-content;
     background-color: white;
+    color: white;
     padding: 35px;
+
 
     .cabecalho-carrinho{
         display: flex;
@@ -129,7 +131,7 @@ body {
             color: black;
             font-family: arial;
             font-size: 17px;
-            margin-top: 8px;
+           
 
             .contador{
                 position: absolute;
@@ -138,7 +140,7 @@ body {
 
                 i{
                     cursor: pointer;
-                    width: 25px;
+                    width: 25rem;
                     height: 35px;
                     font-family: arial;
                     font-size: 17px;
