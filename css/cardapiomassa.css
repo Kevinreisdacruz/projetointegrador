@@ -38,13 +38,6 @@ body{
 }
 
 
-#seta{
-    transition: all ease-in-out 0.5s;
-}
-
-#seta:hover{
-    scale: 1.4;
-}
 
 .all-cards{
     display: flex;
