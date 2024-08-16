@@ -14,6 +14,30 @@
 
 <body>
 
+  <div id="container-login">
+    <div class="caixa-cadastro" id="caixalogin">
+      <h1>Login</h1>
+      <input type="text" placeholder="E-mail">
+      <br><br>
+
+      <div>
+        <input type="password" id="senha" placeholder="Senha">
+        <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarsenha()"></i>
+      </div>
+
+      <br><br>
+      <a href="index.html">
+        <button>CRIAR CONTA</button>
+      </a>
+      <br><br>
+      <a href="index.html">
+        <button>ENTRAR</button>
+      </a>
+
+      <h6>Não desejo me conectar agora</h6>
+
+    </div>
+  </div>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
     <div class="container-fluid">
@@ -25,7 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
           <li class="nav-item">
-            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
+            <a id="login" class="nav-link active link-navbar" aria-current="page">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active link-navbar" href="carrinho.html">Carrinho</a>
@@ -33,12 +57,17 @@
 
         </ul>
         <form class="d-flex" role="search">
+          <a href="">
+            <img id="user-icon" src="imagelogos/user-icon.png" width="50px" alt="">
+          </a>
           <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
           <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
         </form>
       </div>
     </div>
   </nav>
+
+
 
 
 

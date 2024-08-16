@@ -31,6 +31,15 @@ body{
     z-index: 1;
     opacity: 90%;
     width: 100%;
+
+    #user-icon{
+        padding: 7px;
+    }
+
+    a{
+        cursor: pointer;
+    }
+
 }
 
 .box-link{
@@ -51,6 +60,101 @@ body{
 
 .pesquisar:hover{
     scale: 1.1;
+}
+
+#container-login{
+    
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    
+}
+
+#caixalogin{
+    background-color: white;
+    width: 25.5rem;
+    height: 28rem;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 50px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    animation: animacao-login 1s;
+
+
+    
+   
+    
+   
+   
+    
+
+    input{
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 15px;
+
+        
+    }
+
+    button{
+        width: 100%;
+        height: 3rem;
+        border: none;
+        border-radius: 10px;
+        background-color: #4bc4da;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+
+    button:active{
+        transform: scale(.8);
+    }
+
+    h6{
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    h6:hover{
+        text-decoration: underline;
+    }
+}
+
+@keyframes  animacao-login {
+    from{
+        scale: 0;
+    }
+    to{
+        scale: 1;
+    }
+}
+
+ 
+
+
+
+
+div{
+    position: relative;
+}
+
+div i{
+    font-size: 30px;
+    cursor: pointer;
+
+    position: absolute;
+    right: 15%;
+    margin-top: 4px;
+    
 }
 
 
