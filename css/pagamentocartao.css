@@ -9,6 +9,7 @@ body{
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .container{
@@ -24,6 +25,7 @@ body{
     width: 25rem;
     height: 35rem;
     border-radius: 20px;
+    
    
     
 
@@ -32,32 +34,49 @@ body{
         text-align: center;
         text-decoration: underline;
         padding: 0.5rem;
-
     }
-    h5{
-      text-align: center;
-    }
+    
 
 }
 
 .inf{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 250px;
     padding: 1rem;
     
     
     input{
         text-decoration: none;
-        width: 16rem;
+        width: 100%;
         padding: 5px;
+        outline: none;
+        border: 1px solid #4bc4da; 
         border-radius: 5px;
         outline: none;
         font-size: 15px;
+    }
 
-        
-       
+   
+    
+    span{
+        position: absolute;
+        left: 13px;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        transition: 0.5s;
         
     }
+}
+
+.inf input:valid ~ span,
+.inf input:focus ~ span
+{
+    color:#4bc4da;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    background: white;
+   
 }
