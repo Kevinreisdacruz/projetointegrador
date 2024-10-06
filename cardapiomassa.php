@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
           <li class="nav-item">
-            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
+            <a class="nav-link active link-navbar" aria-current="page" href="">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active link-navbar" href="index.html">pagina inicial</a>

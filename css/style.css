@@ -33,6 +33,14 @@ body{
     opacity: 90%;
     width: 100%;
 
+    #logo{
+        transition: all ease-in-out 0.7s;
+    }
+
+    #logo:hover{
+        scale: 1.1  ;
+    }
+
     #user-icon{
         padding: 7px;
     }
