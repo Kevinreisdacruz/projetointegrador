@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c558aa34-8e3f-4882-91e7-2ba0ba601033" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cadastro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cadastro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pagamentocartao.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pagamentocartao.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pagamentocard.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pagamentocard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pginicial.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pginicial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagamentocartao.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagamentocartao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardapiomassa.php" beforeDir="false" afterPath="$PROJECT_DIR$/cardapiomassa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/carrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cardapiomassa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cardapiomassa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2n4SomkbL9sPnlgXtSoOPlOp1SA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +35,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kevin/OneDrive/Área de Trabalho/projetointegrador",
+    "last_opened_file_path": "C:/xampp/htdocs/projetointegrador",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728231031198</updated>
       <workItem from="1728231032248" duration="12000" />
+      <workItem from="1728235526451" duration="2052000" />
     </task>
     <servers />
   </component>

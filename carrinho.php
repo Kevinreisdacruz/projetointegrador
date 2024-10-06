@@ -12,42 +12,17 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img src="imagelogos/logo3.png" alt="" width="95">
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
-          <li class="nav-item">
-            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active link-navbar" href="index.html">VOLTAR PÁGINA INICIAL</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
-          <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
   <div class="container">
   <div class="carrinho">
     <div class="cabecalho-carrinho">
-      <a href="index.html">
+      <a href="index.php">
         <button>
           <i class="bi bi-arrow-left-short"></i>
         </button>
       </a>
       <h3>Meu Carrinho</h3>
     </div>
+
     <ul>
       <li class="carrinho-item">
         <div class="imagem">
@@ -131,10 +106,9 @@
       </li>
     </ul>
 
-    <a href="agradecimento.html">
+    <a href="pagamento.php">
       <button id="comprar">Comprar</button>
     </a>
-
   </div>
 </div>
 

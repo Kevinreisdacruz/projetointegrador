@@ -14,65 +14,9 @@
 
 <body>
 
-  <form action="">
-    <div id="container-login">
-      <div class="caixa-cadastro" id="caixalogin">
-        <h1>Login</h1>
-        <input type="text" placeholder="E-mail">
-        <br><br>
-
-        <input type="password" id="senha" placeholder="Senha">
-        <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarsenha()"></i>
-        <br><br>
-        <input type="text" id="fone" placeholder="Telefone">
-
-        <br><br>
-        <a href="index.html">
-          <button>CRIAR CONTA</button>
-        </a>
-        <br><br>
-        <a href="index.html">
-          <button>ENTRAR</button>
-        </a>
-
-        <h6>Não desejo me conectar agora</h6>
-
-      </div>
-  </form>
-  </div>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a href="index.html">
-        <img id="logo" src="imagelogos/logo3.png" alt="" width="95">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
-          <li class="nav-item">
-            <a id="login" class="nav-link active link-navbar" aria-current="page">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active link-navbar" href="carrinho.html">Carrinho</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <a href="">
-            <img id="user-icon" src="imagelogos/user-icon.png" width="50px" alt="">
-          </a>
-          <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
-          <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-
-
+<?php
+include "navbar.php";
+?>
 
 
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -90,43 +34,43 @@
   </div>
 
   <div class="card-container" data-aos="fade-right">
-    <div class="card">
-      <img src="imagemassa/massa-cardapio.png" alt="">
-      <div class="card-content">
-        <h3>massa</h3>
-        <p>Conhecido como sorvete artesanal, Sobremesa cremosa e saborosa,feita com igredientes frescos e
-          naturais.Preparados em pequenos lotes para garantir qualidade, sabores excepcionais, frescor e suavidade a
-          clientela.E um verdadeiro deleite para os amantes de sobremesa.
-        </p>
-        <a href="cardapiomassa.html" class="btn">VEJA MAIS</a>
+      <div class="card">
+          <img src="imagemassa/massa-cardapio.png" alt="">
+          <div class="card-content">
+              <h3>massa</h3>
+              <p>Conhecido como sorvete artesanal, Sobremesa cremosa e saborosa,feita com igredientes frescos e
+                  naturais.Preparados em pequenos lotes para garantir qualidade, sabores excepcionais, frescor e suavidade a
+                  clientela.E um verdadeiro deleite para os amantes de sobremesa.
+              </p>
+              <a href="cardapiomassa.html" class="btn">VEJA MAIS</a>
+          </div>
       </div>
-    </div>
 
-    <div class="card">
-      <img src="imagemilkshake/milkshake-cardapio.png" alt="">
-      <div class="card-content">
-        <h3>milkshake</h3>
-        <p>Milkshakes cremosos e refrescantes,feito com massa de morango, chocolate,creme e baunilha com igredientes
-          saborosos. Com a consistência espessa e suave,sera feito em copos altos com canudos largos, com chantilly em
-          cima,seguido com suas caldas.
-        </p>
-        <a href="cardapiomilkshake.html" class="btn">VEJA MAIS</a>
+      <div class="card">
+          <img src="imagemilkshake/milkshake-cardapio.png" alt="">
+          <div class="card-content">
+              <h3>milkshake</h3>
+              <p>Milkshakes cremosos e refrescantes,feito com massa de morango, chocolate,creme e baunilha com igredientes
+                  saborosos. Com a consistência espessa e suave,sera feito em copos altos com canudos largos, com chantilly em
+                  cima,seguido com suas caldas.
+              </p>
+              <a href="cardapiomilkshake.html" class="btn">VEJA MAIS</a>
+          </div>
       </div>
-    </div>
 
-    <div class="card">
-      <img src="imagepicoles/picole-cardapio.png" alt="">
-      <div class="card-content">
-        <h3>picoles</h3>
-        <p>É deliciosa sobremesa que transforma sabores em momentos refrescantes. Com sua forma icônica e cores
-          vibrantes, ele lhe promete uma sensação unica com um frescor incrivel a cada mordida com seu exterior crocante
-          ou suave.
-        </p>
-        <a href="cardapiopicoles.html" class="btn">VEJA MAIS</a>
+      <div class="card">
+          <img src="imagepicoles/picole-cardapio.png" alt="">
+          <div class="card-content">
+              <h3>picoles</h3>
+              <p>É deliciosa sobremesa que transforma sabores em momentos refrescantes. Com sua forma icônica e cores
+                  vibrantes, ele lhe promete uma sensação unica com um frescor incrivel a cada mordida com seu exterior crocante
+                  ou suave.
+              </p>
+              <a href="cardapiopicoles.html" class="btn">VEJA MAIS</a>
+          </div>
       </div>
-    </div>
-
   </div>
+
 
   <div class="container">
     <div class="fundosobrenos" data-aos="zoom-in">
