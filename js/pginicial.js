@@ -8,5 +8,7 @@ function abrir(){
     
 }
 
+
 AOS.init()
+$('#fone').mask('(00) 00000-0000');
 
