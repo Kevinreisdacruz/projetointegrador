@@ -13,9 +13,31 @@
 
 <body>
 
-<?php
-include "navbar.php";
-?>
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="imagelogos/logo3.png" alt="" width="95">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
+          <li class="nav-item">
+            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active link-navbar" href="index.html">pagina inicial</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
+          <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
   
   <div class="all-cards"  data-aos="fade-right"  data-aos-duration="2500">
     <div class="card">
@@ -27,7 +49,7 @@ include "navbar.php";
         <h4>GELATO DE CHOCOLATE BELGA COM CALDA DE CHOCOLATE AO LEITE E PEDACINHOS DE CASQUINHA. </h4>
         <h3>R$40,00</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
+          <a href="carrinho.php">
             <button class="btn-buy">COMPRAR</button>
           </a>
         </div>
@@ -43,7 +65,7 @@ include "navbar.php";
         <h4>ASSINATURA DA MARCA O MAIS CREMOSO E DELICADO RESULTADO DA MISTURA DO LEITE E CREME DE LEITE.</h4>
         <h3>R$40,00</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
+          <a href="carrinho.php">
             <button class="btn-buy">COMPRAR</button>
           </a>
         </div>
@@ -59,7 +81,7 @@ include "navbar.php";
         <h4>A COMBINAÇÃO DO GELATO DE PISTACHE COM CALDA DE CREMOS E CROCANTE DE PISTACHE.</h4>
         <h3>R$40,00</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
+          <a href="carrinho.php">
             <button class="btn-buy">COMPRAR</button>
           </a>
         </div>
@@ -75,7 +97,7 @@ include "navbar.php";
         <img src="imagelogos/instagram.png" class="rede-social" alt="">
       </a>
 
-      <a href="index.html">
+      <a href="https://www.facebook.com/?locale=pt_BR">
         <img src="imagelogos/facebook2.png" class="rede-social" alt="">
       </a>
 
