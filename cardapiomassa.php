@@ -13,30 +13,7 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img src="imagelogos/logo3.png" alt="" width="95">
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
-          <li class="nav-item">
-            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active link-navbar" href="index.html">pagina inicial</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
-          <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+<?php include 'navbar.php' ?>
 
   
   <div class="all-cards"  data-aos="fade-right"  data-aos-duration="2500">
@@ -90,27 +67,5 @@
   </div>
 
 
-  <div class="footer">
-    <div class="footer-interior">
-      <h1 class="titulocontatos">NOSSOS CONTATOS E SERVIÇOS</h1>
-      <a href="https://www.instagram.com/accounts/login/">
-        <img src="imagelogos/instagram.png" class="rede-social" alt="">
-      </a>
+ <?php include "footer.php" ?>
 
-      <a href="https://www.facebook.com/?locale=pt_BR">
-        <img src="imagelogos/facebook2.png" class="rede-social" alt="">
-      </a>
-
-      <h4 class="contatos">TELEFONE:(19)99892-8999</h4>
-      <h4 class="contatos">realegelatosrc@gmail.com</h4>
-      <h3 class="contatos">Abertos de segunda-Feira a sábado <br> Das 12:00h até as 21:00h <br> Entregas só até as
-        17:00h
-      </h3>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/massa.js"></script>
-</body>
-
-</html>
