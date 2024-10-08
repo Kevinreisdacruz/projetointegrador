@@ -3,3 +3,10 @@ $('#cod-seguranca').mask('000');
 $('#num-card').mask('0000 0000 0000 0000');
 
 
+function replace() {
+    $('#titular').replace('1', '');
+    alert('asa');
+
+}
+
+

@@ -50,7 +50,7 @@
 
 
       <div class="inf">
-        <input id="titular" type="text" required="required">
+        <input id="titular" type="text" required="required" oninput="replace()">
         <span>NOME DO TITULAR</span>
       </div>
       <div class="inf">
