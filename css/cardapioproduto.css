@@ -37,18 +37,18 @@ body{
 }
 
 
-.all-cards{
+.todos-cards-produtos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
-.card{
+.card-produtos{
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
     width: 20rem;
+    margin-top: 5rem;
     border-radius: 2rem;
     box-shadow: 2px 4px 1px 2px;
     background-color: white;
@@ -57,39 +57,15 @@ body{
 
 }
 
-.card:hover{
+.card-produtos:hover{
     scale: 1.15;
-}
-
-.content-inside{
-    .img-content{
-        img{
-
-            width: 100%;
-            max-height: auto;
-            
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
-        
-    }
-}
-
-h3{
-    text-align: center;
-}
-
-h4{
-    text-align: center;
-    color: grey;
-    font-size: 19px;
 }
 
 .button-buy{
     display: flex;
     justify-content: center;
     
-    .btn-buy{
+    .btn-comprar{
         background-color: #4bc4da;
         color: white;
         border: none;

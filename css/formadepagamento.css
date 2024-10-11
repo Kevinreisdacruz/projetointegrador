@@ -60,11 +60,101 @@ body{
         transition: all ease-in-out 0.8s;
         cursor: pointer;
     }
+    img:hover{
+        scale: 1.2;
+    }
     
 }
 
-img:hover{
-    scale: 1.2;
+
+.fundo-cartao {
+    position: relative;
+    top: 5rem;
+    background-color: white;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+
+    h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        text-decoration: underline;
+        padding: 0.5rem;
+    }
+
+    .imagem-cartao {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .botao-confirmar {
+        display: flex;
+        justify-content: center;
+
+        .botao {
+            background-color: white;
+            border: 2px solid #A8D2A0;
+            border-radius: 5px;
+            text-decoration: none;
+            justify-content: center;
+            width: 15rem;
+            height: 2rem;
+            transition: all ease-in-out 0.7s;
+        }
+    }
+
+    .botao:hover {
+        scale: 1.1;
+        background-color: #A8D2A0;
+
+    }
+
+}
+
+.inf {
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
+    padding: 1rem;
+
+
+    input {
+        text-decoration: none;
+        width: 100%;
+        padding: 7px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        outline: none;
+        font-size: 15px;
+    }
+
+
+
+    span {
+        position: absolute;
+        left: 13px;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        transition: 0.5s;
+
+    }
+}
+
+.inf input:valid~span,
+.inf input:focus~span {
+    color: #4bc4da;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    background: white;
+
 }
 
 

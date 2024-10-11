@@ -13,52 +13,76 @@
 
 <body>
 
-<?php include 'navbar.php' ?>
 
-  <div class="all-cards" data-aos="fade-right"  data-aos-duration="2500">
-    <div class="card">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="imagelogos/logo3.png" alt="" width="95">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 box-link">
+          <li class="nav-item">
+            <a class="nav-link active link-navbar" aria-current="page" href="cadastro.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active link-navbar" href="index.html">pagina inicial</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
+          <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="todos-cards-produtos" data-aos="fade-right"  data-aos-duration="2500">
+    <div class="card-produtos">
       <div class="content-inside">
         <div class="img-content">
-          <img src="imagepicoles/picolecoco.png" alt="">
+          <img src="imagepicoles/picolecoco.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
         </div>
-        <h3>COCO</h3>
-        <h4>SABOR SUAVE E TRANQUILO</h4>
+        <h3 style="text-align: center;">COCO</h3>
+        <h4 style="text-align: center; color: grey; font-size: 19px;">SABOR SUAVE E TRANQUILO</h4>
         <h3>R$15,90</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
-            <button class="btn-buy">COMPRAR</button>
+          <a href="carrinho.php">
+            <button class="btn-comprar">COMPRAR</button>
           </a>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card-produtos">
       <div class="content-inside">
         <div class="img-content">
-          <img src="imagepicoles/picolechocolate.png" alt="">
+          <img src="imagepicoles/picolechocolate.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
         </div>
-        <h3>CHOCOLATE</h3>
-        <h4>SABOROSO, CREMOSO E DELICIOSO</h4>
+        <h3 style="text-align: center;">CHOCOLATE</h3>
+        <h4 style="text-align: center; color: grey; font-size: 19px;">SABOROSO, CREMOSO E DELICIOSO</h4>
         <h3>R$15,90</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
-            <button class="btn-buy">COMPRAR</button>
+          <a href="carrinho.php">
+            <button class="btn-comprar">COMPRAR</button>
           </a>
         </div>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card-produtos">
       <div class="content-inside">
         <div class="img-content">
-          <img src="imagepicoles/picolemorango.png" alt="">
+          <img src="imagepicoles/picolemorango.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
         </div>
-        <h3>MORANGO</h3>
-        <h4>SABOROSO COM FRESCOR</h4>
+        <h3 style="text-align: center;">MORANGO</h3>
+        <h4 style="text-align: center; color: grey; font-size: 19px;">SABOROSO COM FRESCOR</h4>
         <h3>R$15,90</h3>
         <div class="button-buy">
-          <a href="carrinho.html">
-            <button class="btn-buy">COMPRAR</button>
+          <a href="carrinho.php">
+            <button class="btn-comprar">COMPRAR</button>
           </a>
         </div>
       </div>
@@ -66,4 +90,28 @@
 
   </div>
 
-  <?php include "footer.php" ?>
+  <div class="footer">
+    <div class="footer-interior">
+      <h1 class="titulocontatos">NOSSOS CONTATOS E SERVIÇOS</h1>
+      <a href="https://www.instagram.com/accounts/login/">
+        <img src="imagelogos/instagram.png" class="rede-social" alt="">
+      </a>
+
+      <a href="https://www.facebook.com/?locale=pt_BR">
+        <img src="imagelogos/facebook2.png" class="rede-social" alt="">
+      </a>
+
+      <h4 class="contatos">TELEFONE:(19)99892-8999</h4>
+      <h4 class="contatos">realegelatosrc@gmail.com</h4>
+      <h3 class="contatos">Abertos de segunda-Feira a sábado <br> Das 12:00h até as 21:00h <br> Entregas só até as
+        17:00h
+      </h3>
+    </div>
+  </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/produtos.js"></script>
+</body>
+
+</html>

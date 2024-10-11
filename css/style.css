@@ -56,7 +56,8 @@ body{
 }
 
 .link-navbar{
-    font-size: 24px; 
+    font-size: 24px;
+    
 }
 
 
@@ -166,40 +167,23 @@ div i{
     
 }
 
-.card{
+.card-pginicial{
     width: 25rem;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.2);
     transition: all ease-in-out 0.5s;
-    
-    img{
-        width: 100%;
-        height: 100%;
-    }
 }
 
-.card:hover{
+.card-pginicial:hover{
     scale: 1.1;
 }
 
 .card-content{
     padding: 2rem;
 
-    h3{
-        font-family: "Anton SC", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        line-height: 1.3;
-    }
-
-    .btn{
+    .btn-card-pginicial{
         display: inline-block;
         padding: 8px 16px;
         background-color: #4BC4DA;
@@ -224,21 +208,6 @@ div i{
     width: 80rem;
     height: 100%;
     border-radius: 2rem;
-  
-    
-    #frase{
-        font-size: 1.5rem;
-        margin-top: 1rem;
-    }
-
-
-    h3{
-        margin-left: 1rem;
-        margin-top: -0.5rem;
-       
-        color: rgb(0, 0, 0);
-        
-    }
 
 }
 
