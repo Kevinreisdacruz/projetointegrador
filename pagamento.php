@@ -18,6 +18,7 @@
                 <a href="pagamentocartao.html">
                     <img class="pagamento" src="imagelogos/pix.png  " alt="">
                 </a>
+                <img class="pagamento" src="imagelogos/money-icon-911ee8.webp" alt="" style="width: 140px;">
             </div>
         </div>
     </div>
