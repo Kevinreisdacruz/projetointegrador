@@ -39,7 +39,7 @@
   </nav>
 
   <div class="todos-cards-produtos" data-aos="fade-right" data-aos-duration="2500">
-    <div class="card-produtos">
+    <div class="card-produtos shadow">
       <div class="content-inside">
         <div class="img-content">
           <img src="imagemilkshake/milkmorango.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="card-produtos">
+    <div class="card-produtos shadow">
       <div class="content-inside">
         <div class="img-content">
           <img src="imagemilkshake/milkpistache.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
@@ -71,7 +71,7 @@
       </div>
     </div>
 
-    <div class="card-produtos">
+    <div class="card-produtos shadow">
       <div class="content-inside">
         <div class="img-content">
           <img src="imagemilkshake/milkavela.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem;">

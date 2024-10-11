@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <div class="fundo">
+        <div class="fundo shadow-lg">
             <h1>ESCOLHA SUA FORMA DE PAGAMENTO</h1>
             <div class="imagens">
                 <img class="pagamento" src="imagelogos/cartoes.png" alt="">
