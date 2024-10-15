@@ -56,9 +56,25 @@ body{
 }
 
 .link-navbar{
+    position: relative;
     font-size: 24px;
-    
 }
+
+.link-navbar::after{
+    content:  " ";
+    width: 0px;
+    height: 4px;
+    background-color: #A8D2A0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.link-navbar:hover::after{
+    width: 100%;
+}
+
 
 
 .pesquisar{
