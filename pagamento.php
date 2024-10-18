@@ -1,11 +1,13 @@
 <?php
     include'navbar.php'
 ?>
-    <div class="container">
-        <div class="fundo shadow-lg">
+    <div class="box">
+        <div class="fundo-forma shadow-lg">
             <h1>ESCOLHA SUA FORMA DE PAGAMENTO</h1>
             <div class="imagens">
-                <img class="pagamento" src="imagelogos/cartoes.png" alt="">
+                <div class="img-cartao">
+                    <img class="pagamento" src="imagelogos/cartoes.png" alt="">
+                </div>
                 <a href="pagamentocartao.html">
                     <img class="pagamento" src="imagelogos/pix.png  " alt="">
                 </a>
@@ -13,7 +15,3 @@
             </div>
         </div>
     </div>
-
-<?php
-    include'footer.php'
-?>
