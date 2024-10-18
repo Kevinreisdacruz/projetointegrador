@@ -24,14 +24,56 @@
 
 }
 
+.navbarcss{
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 90%;
+    width: 100%;
+
+    #logo{
+        transition: all ease-in-out 0.7s;
+    }
+
+    #logo:hover{
+        scale: 1.1  ;
+    }
+
+    #user-icon{
+        padding: 7px;
+    }
+
+    a{
+        cursor: pointer;
+    }
+
+}
+
 .box-link{
    margin-left: 0.5rem;
 }
 
 .link-navbar{
+    position: relative;
     font-size: 24px;
-    
 }
+
+.link-navbar::after{
+    content:  " ";
+    width: 0px;
+    height: 4px;
+    background-color: #A8D2A0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.link-navbar:hover::after{
+    width: 100%;
+}
+
 
 
 .pesquisar{
@@ -43,6 +85,8 @@
 .pesquisar:hover{
     scale: 1.1;
 }
+
+
 
 #container-login{
     
