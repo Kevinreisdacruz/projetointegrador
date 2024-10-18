@@ -1,57 +1,44 @@
 <?php
-  include'navbar.php'
+include 'navbar.php'
 ?>
-  
-  <div class="todos-cards-produtos"  data-aos="fade-right"  data-aos-duration="2500">
-    <div class="card-produtos  shadow">
-      <div class="content-inside">
-        <div class="img-content">
-          <img src="imagemassa/Belga-Crispy.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
-        </div>
-        <h3 style="text-align: center;">BELGA CRISPY</h3>
-        <h4 style="text-align: center; color: grey; font-size: 19px;">GELATO DE CHOCOLATE BELGA COM CALDA DE CHOCOLATE AO LEITE E PEDACINHOS DE CASQUINHA. </h4>
-        <h3>R$40,00</h3>
-        <div class="button-buy">
-          <a href="carrinho.php">
-            <button class="btn-comprar">COMPRAR</button>
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <div class="card-produtos shadow">
-      <div class="content-inside">
-        <div class="img-content">
-          <img src="imagemassa/Sem-Título-1.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
-        </div>
-        <h3 style="text-align: center;">REALE GELATO</h3>
-        <h4 style="text-align: center; color: grey; font-size: 19px;">ASSINATURA DA MARCA O MAIS CREMOSO E DELICADO RESULTADO DA MISTURA DO LEITE E CREME DE LEITE.</h4>
-        <h3>R$40,00</h3>
-        <div class="button-buy">
-          <a href="carrinho.php">
-            <button class="btn-comprar">COMPRAR</button>
-          </a>
-        </div>
-      </div>
-    </div>
+<div class='card-container' data-aos='fade-right'>
 
-    <div class="card-produtos shadow">
-      <div class="content-inside">
-        <div class="img-content">
-          <img src="imagemassa/pistache.png" alt="" style="width: 100%; height: 100%;  border-top-left-radius: 2rem; border-top-right-radius: 2rem; ">
-        </div>
-        <h3 style="text-align: center;">MOUSSE DE PISTACHE</h3>
-        <h4 style="text-align: center; color: grey; font-size: 19px;">A COMBINAÇÃO DO GELATO DE PISTACHE COM CALDA DE CREMOS E CROCANTE DE PISTACHE.</h4>
-        <h3>R$40,00</h3>
-        <div class="button-buy">
-          <a href="carrinho.php">
-            <button class="btn-comprar">COMPRAR</button>
-          </a>
-        </div>
-      </div>
+  <div class='card-produtos'>
+    <img src='imagemassa/massachocolate.png' alt='' style="width: auto; height: auto;" >
+    <div class='card-content-produtos'>
+      <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">chocolate</h3>
+      <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
+      Sorvete cremoso de chocolate belga, com pedaços crocantes de chocolate e uma textura suave que derrete na boca, equilibrando doçura intensa com notas amargas de cacau.
+      </p>
+      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
     </div>
   </div>
-  
-<?php 
-include'footer.php'
+
+  <div class='card-produtos'>
+    <img src='imagemassa/massamenta.png' alt='' style="width: auto; height: auto;" >
+    <div class='card-content-produtos'>
+      <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">menta</h3>
+      <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
+      Sorvete refrescante de menta, com sabor suave e revigorante, acompanhado por uma cremosidade delicada que deixa uma sensação fresca no paladar.
+      </p>
+      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
+    </div>
+  </div>
+
+  <div class='card-produtos'>
+    <img src='imagemassa/massamorango.png' alt='' style="width: auto; height: auto;" >
+    <div class='card-content-produtos'>
+      <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">morango</h3>
+      <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
+      Sorvete leve e refrescante de morango, com sabor doce e levemente ácido, realçado por pedaços de fruta fresca.
+      </p>
+      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
+    </div>
+  </div>
+
+</div>
+
+<?php
+include 'footer.php'
 ?>

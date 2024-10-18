@@ -1,5 +1,4 @@
-
-body{
+body {
     background-image: url(../imagefundos/fundogelato.png);
     background-size: cover;
     background-attachment: fixed;
@@ -8,47 +7,41 @@ body{
     text-decoration: none;
 }
 
-.todos-cards-produtos{
+
+.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     gap: 2rem;
+
 }
 
-.card-produtos{
-    display: flex;
-    justify-content: center;
+.card-produtos {
     width: 20rem;
-    margin-top: 5rem;
-    border-radius: 2rem;
-    box-shadow: 2px 4px 1px 2px;
-    background-color: white;
+    height: 30rem;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.2);
     transition: all ease-in-out 0.5s;
-   
-
 }
 
-.card-produtos:hover{
-    scale: 1.15;
-}
-
-.button-buy{
-    display: flex;
-    justify-content: center;
-    
-    .btn-comprar{
-        background-color: #4bc4da;
-        color: white;
-        border: none;
-        border-radius: 1rem;
-        width: 8rem;
-        height: 1.5rem;
-        transition: all ease-in-out 1s;
-        cursor: pointer
-    }
-}
-
-.btn-buy:hover{
+.card-produtos:hover {
     scale: 1.1;
-    background-color: #A8D2A0;
+}
+
+.card-content-produtos {
+    padding: 2rem;
+
+    .btn-card-pginicial {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #325037;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        margin-top: 1rem;
+    }
 }

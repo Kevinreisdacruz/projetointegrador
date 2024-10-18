@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}   
+}
 
-body{
+body {
     background-image: url(../imagefundos/fundogelato.png);
     margin: 0;
     padding: 0;
@@ -17,21 +17,21 @@ body{
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-  
+
 }
 
 
-.card-container{
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   padding-top: 5rem;
-   padding-bottom: 5rem; 
-   gap: 2rem;
-    
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
+
 }
 
-.card-pginicial{
+.card-pginicial {
     width: 25rem;
     background-color: #F5F5F5;
     border-radius: 15px;
@@ -40,14 +40,14 @@ body{
     transition: all ease-in-out 0.5s;
 }
 
-.card-pginicial:hover{
+.card-pginicial:hover {
     scale: 1.1;
 }
 
-.card-content{
+.card-content {
     padding: 2rem;
 
-    .btn-card-pginicial{
+    .btn-card-pginicial {
         display: inline-block;
         padding: 8px 16px;
         background-color: #325037;
@@ -58,23 +58,22 @@ body{
     }
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
 }
 
-.fundosobrenos{
+.fundosobrenos {
     background-image: url(../imagefundos/sobrenos.png);
     opacity: 90%;
     padding: 1rem;
     width: 80rem;
-    height: 100%;
+    height: 70%;
     border-radius: 2rem;
-    
-    h3{
+
+    h3 {
         font-weight: bold;
     }
 }
-
