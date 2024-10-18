@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="css/carrinho.css">
     <link rel='stylesheet' href='css/style.css'>
     <link rel="stylesheet" href="css/footer.css">
+    <!-- EM PRODUCAO NOVO FOOTER -->
+    <link rel="stylesheet" href="css/footer2.css"> 
+    <!-- EM PRODUCAO NOVO FOOTER -->
+
 </head>
 
 <body>

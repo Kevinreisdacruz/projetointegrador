@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.box3{
+    width: 100%;
+    
+    
+}
+
+.interior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: #325037;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Inter, sans-serif;
+    font-weight: bold; 
+    color: white;
+}
+
+.aside-left{
+    flex: 2;
+}
+
+.holder{
+    display: inline-block;
+    justify-content: center;
+    align-items: center ; 
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+.redes-sociais{
+   padding: 1rem;
+
+   .rede{
+    margin: 0.5rem;
+    cursor: pointer;
+   }
+    
+}
+
+
+.aside-right{
+    flex: 2;
+}

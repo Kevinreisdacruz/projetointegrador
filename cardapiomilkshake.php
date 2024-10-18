@@ -9,9 +9,10 @@ include 'navbar.php'
     <div class='card-content-produtos'>
       <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">avelã</h3>
       <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
-      O milkshake de avelã é uma combinação cremosa de sorvete de baunilha ou chocolate, leite e pasta de avelã, resultando em uma bebida rica e aveludada.
+      Milkshake de avelã, combinação cremosa de sorvete de baunilha ou chocolate, leite e pasta de avelã, resultando em uma bebida rica.
+      <br><br><span style="font-weight: bold;">R$VALOR:25,00</span><br>
       </p>
-      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
+      <a href='' class='btn-card-pginicial shadow'>COMPRAR</a>
     </div>
   </div>
 
@@ -21,8 +22,9 @@ include 'navbar.php'
       <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">morango</h3>
       <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
       O milkshake de morango é uma mistura cremosa de sorvete de baunilha e morangos, coberto com chantilly. É doce e refrescante!
+      <br><br><span style="font-weight: bold;">R$VALOR:25,00</span><br>
       </p>
-      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
+      <a href='' class='btn-card-pginicial shadow'>COMPRAR</a>
     </div>
   </div>
 
@@ -31,9 +33,10 @@ include 'navbar.php'
     <div class='card-content-produtos'>
       <h3 style=" font-family: 'Anton SC', sans-serif;   font-weight: 400; font-style: normal;">pistache</h3>
       <p style="font-family: Arial, Helvetica, sans-serif;  font-size: 15px; line-height: 1.3;">
-      O milkshake de pistache é uma bebida cremosa feita com sorvete de pistache, leite e pasta de pistache, oferecendo um sabor intenso e levemente salgado.
+      O milkshake de pistache é uma bebida cremosa feita com sorvete de pistache, leite e pasta de pistache, oferecendo um sabor intenso.
+      <br><br><span style="font-weight: bold;">R$VALOR:25,00</span><br>
       </p>
-      <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
+      <a href='' class='btn-card-pginicial shadow'>COMPRAR</a>
     </div>
   </div>
 
