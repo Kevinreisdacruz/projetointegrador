@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/obg.css">
     <link rel="stylesheet" href="css/carrinho.css">
     <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>

@@ -26,7 +26,7 @@
           naturais.Preparados em pequenos lotes para garantir qualidade, sabores excepcionais, frescor e suavidade a
           clientela.E um verdadeiro deleite para os amantes de sobremesa.
         </p>
-        <a href='cardapiomassa.php' class='btn-card-pginicial'>VEJA MAIS</a>
+        <a href='cardapiomassa.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
       </div>
     </div>
 
@@ -38,7 +38,7 @@
           saborosos. Com a consistência espessa e suave,sera feito em copos altos com canudos largos, com chantilly em
           cima,seguido com suas caldas.
         </p>
-        <a href='cardapiomilkshake.php' class='btn-card-pginicial'>VEJA MAIS</a>
+        <a href='cardapiomilkshake.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
       </div>
     </div>
 
@@ -50,44 +50,25 @@
           vibrantes, ele lhe promete uma sensação unica com um frescor incrivel a cada mordida com seu exterior crocante
           ou suave.
         </p>
-        <a href='cardapiopicoles.php' class='btn-card-pginicial'>VEJA MAIS</a>
+        <a href='cardapiopicoles.php' class='btn-card-pginicial shadow'>VEJA MAIS</a>
       </div>
     </div>
   </div>
 
 
-  <div class='container'>
-    <div class='fundosobrenos' data-aos='zoom-in'>
+  <div class='box'>
+    <div class='fundosobrenos shadow-sm' data-aos='zoom-in'>
       <h1>SOBRE NÓS</h1>
       <div class='escrita'>
         <h3 style="font-size: 1.5rem;  margin-top: 1rem;">BEM-VINDO À NOSSA SORVETERIA ITALIANA, ONDE TRADIÇÃO E SABOR SE ENCONTRAM PARA CRIAR MOMENTOS
-          SABOROSOS PARA <br><br> SUA
-          VIDA. ESTAMOS LOCALIZADOS EM RIO CLARO-SP,CENTRO, VENHA VISITAR NOSSA SORVETERIA ITALIANA ONDE CADA
+          SABOROSOS PARA SUA
+          VIDA. <br><br> ESTAMOS LOCALIZADOS EM RIO CLARO-SP,CENTRO, VENHA VISITAR NOSSA SORVETERIA ITALIANA ONDE CADA
           SORVETE É UMA OBRA PRIMA. <br><br> FEITA COM PAIXÃO E OS MELHORES INGREDIENTES EM NOSSO ESPAÇO ACOLHEDOR E
-          ENCANTADOR, VOCÊ DESCOBRIRÁ UMA VARIEDADE DE SABORES QUE CAPTURAM A ESSÊNCIA DAS <br><br> SORVETERIAS
-          ITALIANAS. DESDE E OS
+          ENCANTADOR, VOCÊ DESCOBRIRÁ UMA VARIEDADE DE SABORES QUE CAPTURAM A ESSÊNCIA DAS SORVETERIAS
+          ITALIANAS.<br><br> DESDE OS
           CLASSICOS COMO PISTACHE, CADA SORVETE NOSSO É PREPARADO DIARIAMENTE PARA GARANTIR FRESCOR E QUALIDADE
           INCOMPARÁVEIS.</h3>
       </div>
-    </div>
-  </div>
-  
-  <div class='footer'>
-    <div class='footer-interior'>
-      <h1 class='titulocontatos'>NOSSOS CONTATOS E SERVIÇOS</h1>
-      <a href='https://www.instagram.com/accounts/login/'>
-        <img src='imagelogos/instagram.png' class='rede-social' alt=''>
-      </a>
-
-      <a href='https://www.facebook.com/?locale=pt_BR'>
-        <img src='imagelogos/facebook2.png' class='rede-social' alt=''>
-      </a>
-
-      <h4 class='contatos'>TELEFONE:(19)99892-8999</h4>
-      <h4 class='contatos'>realegelatosrc@gmail.com</h4>
-      <h3 class='contatos'>Abertos de segunda-Feira a sábado <br> Das 12:00h até as 21:00h <br> Entregas só até as
-        17:00h
-      </h3>
     </div>
   </div>
 

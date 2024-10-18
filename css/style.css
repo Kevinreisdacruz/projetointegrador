@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-
-@media only screen and (max-width: 768px) {
-
-}
-
 *{
     margin: 0px;
     padding: 0px;
@@ -14,8 +9,7 @@
 }   
 
 body{
-    
-    background-image: url(../imagefundos/fundocardapio.png);
+    background-image: url(../imagefundos/fundogelato.png);
     margin: 0;
     padding: 0;
     height: 100%;
@@ -23,6 +17,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+  
 }
 
 
@@ -30,15 +25,15 @@ body{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   margin-top: 50px;
+   padding-top: 5rem;
+   padding-bottom: 5rem; 
    gap: 2rem;
-   margin-bottom: 3rem; 
     
 }
 
 .card-pginicial{
     width: 25rem;
-    background-color: #ffffff;
+    background-color: #F5F5F5;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.2);
@@ -55,7 +50,7 @@ body{
     .btn-card-pginicial{
         display: inline-block;
         padding: 8px 16px;
-        background-color: #4BC4DA;
+        background-color: #325037;
         color: white;
         text-decoration: none;
         border-radius: 15px;
@@ -63,7 +58,7 @@ body{
     }
 }
 
-.container{
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,44 +66,15 @@ body{
 }
 
 .fundosobrenos{
-    background-color: white;
+    background-image: url(../imagefundos/sobrenos.png);
     opacity: 90%;
     padding: 1rem;
     width: 80rem;
     height: 100%;
     border-radius: 2rem;
-
-}
-
-.footer{
-    width: auto;
-    height: 15rem;
-}
-.footer-interior{
     
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 15px;
-
-    a{
-        text-decoration: none;
+    h3{
+        font-weight: bold;
     }
 }
 
-.rede-social{
-    margin-left: 1.5rem;
-    
-}
-
-.titulocontatos{
- text-align: center;
- font-family: Arial, Helvetica, sans-serif;
- 
-}
-
-.contatos{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5px;
-    margin: 1.5rem;
-
-}
