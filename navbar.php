@@ -11,6 +11,9 @@
     integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/cardapioproduto.css">
+    <link rel="stylesheet" href="css/formadepagamento.css">
+    <link rel="stylesheet" href="css/obg.css">
+    <link rel="stylesheet" href="css/carrinho.css">
     <link rel='stylesheet' href='css/style.css'>
 </head>
 
