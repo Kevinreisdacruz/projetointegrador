@@ -17,6 +17,9 @@
     </div>
   </div>
 
+
+
+  <div id="scroll"></div>
   <div class='card-container' data-aos='fade-right'>
     <div class='card-pginicial'>
       <img src='imagemassa/massa-cardapio.png' alt='' style="width: 100%; height: auto;">
@@ -60,7 +63,7 @@
     <div class='fundosobrenos shadow-sm' data-aos='zoom-in'>
       <h1>SOBRE NÓS</h1>
       <div class='escrita'>
-        <h3 style="font-size: 1.5rem;  margin-top: 1rem;">BEM-VINDO À NOSSA SORVETERIA ITALIANA, ONDE TRADIÇÃO E SABOR SE ENCONTRAM PARA CRIAR MOMENTOS
+        <h3 style="margin-top: 1rem; font-weight: bold;">BEM-VINDO À NOSSA SORVETERIA ITALIANA, ONDE TRADIÇÃO E SABOR SE ENCONTRAM PARA CRIAR MOMENTOS
           SABOROSOS PARA SUA
           VIDA. <br><br> ESTAMOS LOCALIZADOS EM RIO CLARO-SP,CENTRO, VENHA VISITAR NOSSA SORVETERIA ITALIANA ONDE CADA
           SORVETE É UMA OBRA PRIMA. <br><br> FEITA COM PAIXÃO E OS MELHORES INGREDIENTES EM NOSSO ESPAÇO ACOLHEDOR E
@@ -73,5 +76,5 @@
   </div>
 
 <?php
-  include'footer.php';
+  include'footer2.php';
 ?>

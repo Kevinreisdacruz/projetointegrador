@@ -1,16 +1,7 @@
 .footer{
+  
     width: auto;
     height: 15rem;
-}
-.footer-interior{
-    
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 15px;
-
-    a{
-        text-decoration: none;
-    }
 }
 
 .rede-social{

@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+
+
 * {
     font-family: "Inter", sans-serif;
 
 }
 
 
-.box-carrinho{
+.box-carrinho {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,58 +17,68 @@
     height: 100vh;
 }
 
-.interior-carrinho{
+.interior-carrinho {
     width: 40rem;
     height: 50rem;
     background-color: white;
     border-radius: 2rem;
 
-    .produtos-carrinho{
-        
+    .produtos-carrinho {
+
         float: left;
         padding: 2rem;
-    
-        
-    
-    
-        .image-produto{
+
+
+
+
+        .image-produto {
             align-items: center;
             display: flex;
             flex-direction: row;
-    
-            img{
+
+            img {
                 border-radius: 2rem;
             }
-            
+
         }
-    
-    
-        
+
+
+
     }
 
-    .resumo{
-         .resumo-content{
+    .resumo {
+        .resumo-content {
             padding-top: 10rem;
-         }
+        }
 
-        .botoes{
+        .botoes {
+            
 
-            .finalizar-compra{
+            .finalizar-compra {
                 border: none;
                 border-radius: 10px;
                 padding: 8px 16px;
                 background-color: #325037;
                 margin-bottom: 1rem;
+                transition: all ease-in-out 1s;
             }
-    
-            .adicionar-produto{
+
+            .finalizar-compra:hover {
+                scale: 1.1;
+            }
+
+            .adicionar-produto {
                 border: none;
                 border-radius: 10px;
                 padding: 8px 16px;
                 background-color: #51B061;
+                transition: all ease-in-out 1s;
+            }
+
+            .adicionar-produto:hover{
+                scale: 1.1;
             }
         }
-        
+
     }
 }
-

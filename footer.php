@@ -1,11 +1,11 @@
 <div class="footer">
   <div class="footer-interior">
     <h1 class="titulocontatos">NOSSOS CONTATOS E SERVIÇOS</h1>
-    <a href="https://www.instagram.com/accounts/login/">
+    <a style="text-decoration: none;" href="https://www.instagram.com/accounts/login/">
       <img src="imagelogos/instagram.png" class="rede-social" alt="">
     </a>
 
-    <a href="https://www.facebook.com/?locale=pt_BR">
+    <a style="text-decoration: none;" href="https://www.facebook.com/?locale=pt_BR">
       <img src="imagelogos/facebook2.png" class="rede-social" alt="">
     </a>
 

@@ -1,6 +1,6 @@
-$('.img-cartao').click(function cartao(){
-    $('.box').hide();
-$('.box').before(`<div class='box2'>
+$('.img-cartao').click(function cartao() {
+  $('.box').hide();
+  $('.box').before(`<div class='box2'>
     <div class='fundo-cartao'>
       <div class='imagem-cartao'>
         <img src='imagelogos/cartoes-paginapagamentocartao.png' alt=''>
@@ -30,10 +30,11 @@ $('.box').before(`<div class='box2'>
       
       </div>
       </div>`)
-    })
-    $('#data').mask('00/00');
-    $('#cod-seguranca').mask('000');
-    $('#num-card').mask('0000 0000 0000 0000');
-    
+      
+      $('#data').mask('00/00');
+      $('#cod-seguranca').mask('000');
+      $('#num-card').mask('0000 0000 0000 0000');
+})
+
 
 
