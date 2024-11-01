@@ -86,10 +86,8 @@ body {
     }
 
     .imagem-cartao {
-
         display: flex;
         justify-content: center;
-
     }
 
     .botao-confirmar {
@@ -114,7 +112,6 @@ body {
     }
 
 }
-
 
 
 .inf {

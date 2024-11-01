@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/cardapioproduto.css">
     <link rel="stylesheet" href="css/formadepagamento.css">
     <link rel="stylesheet" href="css/obg.css">
+    <link rel="stylesheet" href="css/cep.css">
     <link rel="stylesheet" href="css/carrinho.css">
     <link rel='stylesheet' href='css/style.css'>
     <link rel="stylesheet" href="css/footer.css">

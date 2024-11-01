@@ -1,0 +1,76 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.fundo-cep {
+    width: 25rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+
+    .inf-cep{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        
+        input {
+            text-decoration: none;
+            width: 100%;
+            padding: 7px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            outline: none;
+            font-size: 15px;
+            
+        }
+    
+        span {
+            position: absolute;
+            left: 13px;
+            padding: 10px;
+            pointer-events: none;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            transition: 0.5s;
+        }
+        
+
+    }
+    
+    .confirmar-cep{ 
+        .botao-cep{ 
+            width: 15rem;
+            height: 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            background-color: white;
+            border: 2px solid #A8D2A0;
+            transition: all ease-in-out 0.7s;            
+        }
+        .botao-cep:hover{
+            scale: 1.1;
+            background-color: #A8D2A0;
+        }
+
+    }
+    
+}
+
+.inf-cep input:valid~span,
+.inf-cep input:focus~span {
+    color: #4bc4da;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    background: white;
+    
+}
