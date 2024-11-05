@@ -7,6 +7,7 @@ include 'navbar.php'
         <div class="titulo-cep">
             <h1 style="font-weight: bold;">ENDEREÇO</h1>
         </div>
+        
         <div class="inf-cep">
             <input type="text" required='required'>
             <span>CEP</span>
@@ -27,10 +28,16 @@ include 'navbar.php'
             <input type="text" required='required'>
             <span>COMPLEMENTO</span>
         </div>
+        <div class="inf-cep">
+            <input type="text" required='required'>
+            <span>LOGRADOURO</span>
+        </div>
 
         <div class="confirmar-cep">
             <button class="botao-cep" style="font-weight: bold;">CONFIRMAR ENDEREÇO</button>
         </div>
+
+        
 
     </div>
 </div>

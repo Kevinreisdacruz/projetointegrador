@@ -9,23 +9,24 @@
   <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/cardapioproduto.css">
-    <link rel="stylesheet" href="css/formadepagamento.css">
-    <link rel="stylesheet" href="css/obg.css">
-    <link rel="stylesheet" href="css/cep.css">
-    <link rel="stylesheet" href="css/carrinho.css">
-    <link rel='stylesheet' href='css/style.css'>
-    <link rel="stylesheet" href="css/footer.css">
-    <!-- EM PRODUCAO NOVO FOOTER -->
-    <link rel="stylesheet" href="css/footer2.css"> 
-    <!-- EM PRODUCAO NOVO FOOTER -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/cardapioproduto.css">
+  <link rel="stylesheet" href="css/formadepagamento.css">
+  <link rel="stylesheet" href="css/obg.css">
+  <link rel="stylesheet" href="css/cep.css">
+  <link rel="stylesheet" href="css/carrinho.css">
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- EM PRODUCAO NOVO FOOTER -->
+  <link rel="stylesheet" href="css/footer2.css">
+  <!-- EM PRODUCAO NOVO FOOTER -->
 
 </head>
 
 <body>
 
-  <form action=''>
+
+  <form action='' method="post">
     <div id='container-login'>
       <div class='caixa-cadastro' id='caixalogin'>
         <h1>Login</h1>
@@ -51,6 +52,10 @@
     </div>
   </form>
 
+  
+
+  
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -68,12 +73,20 @@
           <li class="nav-item">
             <a class="nav-link active link-navbar" href="carrinho.php">Carrinho</a>
           </li>
-
         </ul>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #A8D2A0; border: solid 0px;margin-right: 1rem;">
+            PERFIL
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">INFORMAÇÕES E ALTERAÇÕES</button></li>
+            <li><button class="dropdown-item" type="button">EXCLUIR CONTA</button></li>
+            <li><button class="dropdown-item" type="button"></button></li>
+          </ul>
+        </div>
+
         <form class="d-flex" role="search">
-          <a href="">
-            <img id="user-icon" src="imagelogos/user-icon.png" width="50px" alt="">
-          </a>
           <input class="form-control me-2" type="search" placeholder="o que você procura ?" aria-label="Search">
           <button class="btn btn-outline-success pesquisar" type="submit">Procurar</button>
         </form>

@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1280px) {
 
-    .escrita{
-        h3{
+    .escrita {
+        h3 {
             font-size: 15px;
-        } 
-     
+        }
+
     }
 }
 
@@ -89,3 +89,112 @@ body {
     border-radius: 2rem;
 }
 
+
+/* daqui para baixo sera o css para o popup de exclusao de conta */
+
+
+.container-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+
+    .fundo-excluir {
+        width: 45rem;
+        height: 35rem;
+        background-color: white;
+        border-radius: 15px;
+
+
+
+        .titulo-excluir {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem;
+
+            .escrita-excluir {
+
+                text-align: center;
+                width: 30rem;
+                height: 2.5rem;
+                background-color: #A8D2A0;
+                color: white;
+                border-radius: 15px;
+            }
+        }
+
+        .inf-excluir {
+            margin: 3rem;
+
+            input {
+                text-decoration: none;
+                width: 20rem;
+                padding: 10px;
+                outline: none;
+                border: 1px solid black;
+                border-radius: 5px;
+                outline: none;
+                font-size: 15px;
+
+            }
+
+            span {
+                position: absolute;
+                left: 9.3rem;
+                padding: 10px;
+                pointer-events: none;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }
+
+        }
+
+        
+        .botoes-excluir{
+           
+            .btn-excluir {
+                width: 7rem;
+                height: 2rem;
+                text-decoration: none;
+                background-color: red;
+                color: white;
+                border: solid 1px;
+                border-radius: 5px;
+                transition: all ease-in-out 0.7s;
+            }
+          
+            .btn-excluir:hover {
+                scale: 1.1;
+            }
+    
+            .btn-esquecer-exclusao{
+                width: 15rem;
+                height: 2rem;
+                text-decoration: none;
+                background-color: red;
+                color: white;
+                border: solid 1px;
+                border-radius: 5px;
+                transition: all ease-in-out 0.7s;
+            }
+
+            .btn-esquecer-exclusao:hover{
+                scale: 1.1;
+            }
+
+        }
+
+    }
+}
+
+.inf-excluir input:valid~span,
+.inf-excluir input:focus~span {
+    color: #4bc4da;
+    transform: translateX(10px) translateY(-18px);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    background: white;
+}
