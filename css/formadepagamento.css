@@ -95,7 +95,8 @@ body {
         justify-content: center;
     
         .botao {
-            background-color: white;
+            background-color: #A8D2A0;
+            color: white;
             border: 2px solid #A8D2A0;
             border-radius: 5px;
             text-decoration: none;
@@ -104,10 +105,9 @@ body {
             height: 2rem;
             transition: all ease-in-out 0.7s;
         }
+        
         .botao:hover {
             scale: 1.1;
-            background-color: #A8D2A0;
-        
         }
     }
 

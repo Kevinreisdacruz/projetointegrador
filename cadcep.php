@@ -31,5 +31,10 @@ include 'navbar.php'
         <div class="confirmar-cep">
             <button class="botao-cep" style="font-weight: bold;">CONFIRMAR ENDEREÇO</button>
         </div>
+
     </div>
 </div>
+
+<?php
+    include 'footer.php'
+?>
