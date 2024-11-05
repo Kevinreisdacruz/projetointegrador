@@ -115,13 +115,12 @@ body {
             margin: 1.5rem;
 
             .escrita-excluir {
-
                 text-align: center;
                 width: 30rem;
                 height: 2.5rem;
                 background-color: #A8D2A0;
                 color: white;
-                border-radius: 15px;
+                border-radius: 5px;
             }
         }
 
@@ -174,7 +173,7 @@ body {
                 width: 15rem;
                 height: 2rem;
                 text-decoration: none;
-                background-color: red;
+                background-color: #A8D2A0;
                 color: white;
                 border: solid 1px;
                 border-radius: 5px;
