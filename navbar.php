@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/cep.css">
   <link rel="stylesheet" href="css/carrinho.css">
   <link rel='stylesheet' href='css/style.css'>
+  <link rel="stylesheet" href="css/alteracoes.css">
   <link rel="stylesheet" href="css/footer.css">
   <!-- EM PRODUCAO NOVO FOOTER -->
   <link rel="stylesheet" href="css/footer2.css">
@@ -24,6 +25,8 @@
 </head>
 
 <body>
+
+<!-- aqui a baixo popup de login -->
 
 
   <form action='' method="post">
@@ -53,6 +56,50 @@
   </form>
 
   
+  <!-- aqui termina o popup de login -->
+
+
+  <!-- aqui a baixo e o html do popup de exclusao de conta -->
+
+  <div id="container-excluir">
+  <div class="fundo-excluir" id="funcoexclusao">
+
+    <div class="titulo-excluir">
+      <div class="escrita-excluir">
+        <h2 style="font-weight: bold;">EXCLUIR CONTA</h2>
+      </div>
+    </div>
+
+    <div class="detalhes-exclusao">
+      <h5>PARA EXCLUIR SUA CONTA <br> INFORME SUAS INFORMAÇÕES DE CADASTRO</h5>
+    </div>
+
+    <div class="inf-excluir">
+      <input type="text" required='required'>
+      <span>CONFIRME SEU EMAIL</span>
+    </div>
+    <div class="inf-excluir">
+      <input type="text" required='required'>
+      <span>CONFIRME SUA SENHA</span>
+    </div>
+    <div class="inf-excluir">
+      <input type="text" required='required'>
+      <span>CONFIRME SEU TELEFONE</span>
+    </div>
+
+    <div class="botoes-excluir">
+      <a href="index.php">
+        <button class="btn-excluir">EXCLUIR</button><br>
+      </a>
+      <a href="index.php">
+        <button class="btn-esquecer-exclusao">CANCELAR A EXCLUSÃO</button>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- html da exclusao de cadastro termina aqui -->
 
   
 
@@ -75,13 +122,13 @@
           </li>
         </ul>
 
-        <div class="dropdown">
+        <div class="dropdown"> 
           <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #A8D2A0; border: solid 0px;margin-right: 1rem;">
             PERFIL
           </button>
           <ul class="dropdown-menu">
-            <li><button class="dropdown-item" type="button">INFORMAÇÕES E ALTERAÇÕES</button></li>
-            <li><button class="dropdown-item" type="button">EXCLUIR CONTA</button></li>
+            <li><a href="alteracoes.php"><button class="dropdown-item" type="button">INFORMAÇÕES E ALTERAÇÕES</button></a></li>
+            <li><button id="exclusao" class="dropdown-item" type="button">EXCLUIR CONTA</button></li>
             <li><button class="dropdown-item" type="button"></button></li>
           </ul>
         </div>
