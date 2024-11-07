@@ -102,8 +102,8 @@ body {
 
 
     .fundo-excluir {
-        width: 45rem;
-        height: 35rem;
+        width: 38rem;
+        height: 36rem;
         background-color: white;
         border-radius: 15px;
 
@@ -116,7 +116,7 @@ body {
 
             .escrita-excluir {
                 text-align: center;
-                width: 30rem;
+                width: 22rem;
                 height: 2.5rem;
                 background-color: #A8D2A0;
                 color: white;
@@ -139,10 +139,10 @@ body {
 
             }
 
-            span {
+            span{
                 position: absolute;
-                left: 9.3rem;
-                padding: 10px;
+                left: 6.5rem;
+                padding: 7px;
                 pointer-events: none;
                 font-size: 0.8rem;
                 text-transform: uppercase;
@@ -155,6 +155,7 @@ body {
         .botoes-excluir{
            
             .btn-excluir {
+                margin: 0.5rem;
                 width: 7rem;
                 height: 2rem;
                 text-decoration: none;
@@ -196,4 +197,5 @@ body {
     font-size: 0.7rem;
     padding: 0 10px;
     background: white;
+
 }

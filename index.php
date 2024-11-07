@@ -45,7 +45,6 @@ include 'navbar.php';
     <div class="botoes-excluir">
       <button class="btn-excluir">EXCLUIR</button><br>
       <button class="btn-esquecer-exclusao">CANCELAR A EXCLUSÃO</button>
-
     </div>
 
   </div>
