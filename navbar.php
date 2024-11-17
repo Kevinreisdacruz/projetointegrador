@@ -1,3 +1,19 @@
+<?php
+
+include_once 'funcoes.php';
+
+
+
+
+
+?>
+
+
+
+
+
+
+
 <!doctype html>
 <html lang='pt-br'>
 
@@ -30,13 +46,13 @@
     <div id='container-login'>
       <div class='caixa-cadastro' id='caixalogin'>
         <h1>Login</h1>
-        <input type='email' placeholder='E-mail'>
+        <input name="email" type='email' placeholder='E-mail'>
         <br><br>
 
-        <input type='password' id='senha' placeholder='Senha'>
+        <input name="senha" type='password' id='senha' placeholder='Senha'>
         <i class='bi bi-eye-fill' id='btn-senha' onclick='mostrarsenha()'></i>
         <br><br>
-        <input type='text' id='fone' placeholder='Telefone'>
+        <input name="telefone"  type='text' id='fone' placeholder='Telefone'>
 
         <br><br>
         <a href='index.php'>

@@ -1,5 +1,9 @@
 <?php
 include 'navbar.php';
+
+include_once 'funcoes.php';
+
+
 ?>
 
 <div id='carouselExampleSlidesOnly' class='carousel slide' data-bs-ride='carousel'>
