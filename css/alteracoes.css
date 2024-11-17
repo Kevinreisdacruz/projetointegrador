@@ -1,0 +1,32 @@
+.container-alterar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.fundo-alterar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 33rem;
+    height: 33rem;
+    background-color: white;
+
+
+    .titulo-alterar {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+
+        .escrita-alterar {
+            text-align: center;
+            width: 25rem;
+            height: 2.5rem;
+            background-color: #A8D2A0;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+}

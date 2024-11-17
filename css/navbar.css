@@ -1,28 +1,12 @@
-.navbarcss{
-    padding: 30px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    opacity: 90%;
-    width: 100%;
+@media only screen and (max-width: 1280px) {
 
-    #logo{
-        transition: all ease-in-out 0.7s;
+  
+
+    h5{
+        font-size: 0.9rem;
     }
-
-    #logo:hover{
-        scale: 1.1  ;
-    }
-
-    #user-icon{
-        padding: 7px;
-    }
-
-    a{
-        cursor: pointer;
-    }
-
 }
+
 
 .navbarcss{
     padding: 30px;
@@ -87,7 +71,7 @@
 }
 
 
-
+/* aqui comeca o css do popup de login */
 #container-login{
     
     position: fixed;
@@ -170,4 +154,128 @@ div i{
     right: 15%;
     margin-top: 4px;
     
+}
+
+/* aqui acaba o css do popup de login */
+
+#container-excluir {
+    display: flex;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+
+
+    .fundo-excluir {
+        width: 36rem;
+        height: 36rem;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+        animation: animacao-exclusao 1s; 
+
+
+
+        .titulo-excluir {
+            display: flex;
+            justify-content: center;
+            margin: 1.5rem;
+
+            .escrita-excluir {
+                text-align: center;
+                width: 20rem;
+                height: 2.5rem;
+                background-color: #A8D2A0;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+
+        .inf-excluir {
+            margin: 3rem;
+
+            input {
+                text-decoration: none;
+                width: 20rem;
+                padding: 10px;
+                outline: none;
+                border: 1px solid black;
+                border-radius: 5px;
+                outline: none;
+                font-size: 15px;
+
+            }
+
+            span{
+                position: absolute;
+                left: 5.5rem;
+                padding: 7px;
+                pointer-events: none;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }
+
+        }
+
+        
+        .botoes-excluir{
+           
+            .btn-excluir {
+                margin: 0.5rem;
+                width: 7rem;
+                height: 2rem;
+                text-decoration: none;
+                background-color: red;
+                color: white;
+                border: solid 1px;
+                border-radius: 5px;
+                transition: all ease-in-out 0.7s;
+            }
+          
+            .btn-excluir:hover {
+                scale: 1.1;
+            }
+    
+            .btn-esquecer-exclusao{
+                width: 15rem;
+                height: 2rem;
+                text-decoration: none;
+                background-color: #A8D2A0;
+                color: white;
+                border: solid 1px;
+                border-radius: 5px;
+                transition: all ease-in-out 0.7s;
+            }
+
+            .btn-esquecer-exclusao:hover{
+                scale: 1.1;
+            }
+
+        }
+        
+    }
+    
+}
+@keyframes  animacao-exclusao {
+    from{
+        scale: 0;
+    }
+    to{
+        scale: 1;
+    }
+}
+
+.inf-excluir input:valid~span,
+.inf-excluir input:focus~span {
+    color: #4bc4da;
+    transform: translateX(10px) translateY(-18px);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    background: white;
+
 }

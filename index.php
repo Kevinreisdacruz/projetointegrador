@@ -20,40 +20,6 @@ include_once 'funcoes.php';
   </div>
 </div>
 
-<div class="container-excluir">
-  <div class="fundo-excluir">
-
-    <div class="titulo-excluir">
-      <div class="escrita-excluir">
-        <h2 style="font-weight: bold;">EXCLUIR CONTA</h2>
-      </div>
-    </div>
-
-    <div class="detalhes-exclusao">
-      <h4>PARA EXCLUIR SUA CONTA, NOS INFORME SUAS INFORMAÇÕES DE CADASTRO</h4>
-    </div>
-
-    <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SEU EMAIL</span>
-    </div>
-    <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SUA SENHA</span>
-    </div>
-    <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SEU TELEFONE</span>
-    </div>
-
-    <div class="botoes-excluir">
-      <button class="btn-excluir">EXCLUIR</button><br>
-      <button class="btn-esquecer-exclusao">CANCELAR A EXCLUSÃO</button>
-    </div>
-
-  </div>
-</div>
-
 
 
 <div id="scroll"></div>
