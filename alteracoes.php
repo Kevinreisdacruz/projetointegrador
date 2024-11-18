@@ -11,6 +11,24 @@ include 'navbar.php'
             </div>
         </div>
 
+        <div class="inf-alteracoes">
+            <span>EMAIL:</span><br>
+            <input type="text">
+        </div>
+        <div class="inf-alteracoes">
+            <span>SENHA:</span><br>
+            <input type="text">
+        </div>
+        <div class="inf-alteracoes">
+            <span>TELEFONE:</span><br>
+            <input type="text">
+        </div>
+
+        <div class="botoes-alteracoes">
+            <button class="btn-alteracoes" style="font-weight: bold;" >CONFIRMAR ALTERACÕES</button><br>
+            <button class="btn-esquecer-alteracoes" style="font-weight: bold;" >CANCELAR ALTERACÕES</button>
+        </div>
+
     </div>
 </div>
 

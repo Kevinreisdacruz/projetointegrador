@@ -1,18 +1,20 @@
 <?php
 
 include_once 'funcoes.php';
+include_once 'configs/database.php';
+include_once 'objetos/clientefinal.php';
 
-
-
-
+if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($_POST['telefone_cadastrar'])&& isset($_POST['cadastrar'])){
+  $database = new database();
+  $db = $database->conectar();
+  $cliente = new cliente($db);
+  $cliente->email = $_POST['email_cadastrar'];
+  $cliente->senha = $_POST['senha_cadastrar'];
+  $cliente->telefone = $_POST['telefone_cadastrar'];
+  $cliente->cadastrarCliente();
+}
 
 ?>
-
-
-
-
-
-
 
 <!doctype html>
 <html lang='pt-br'>
@@ -47,26 +49,22 @@ include_once 'funcoes.php';
 
   <form action='' method="post">
     <div id='container-login'>
-      <div class='caixa-cadastro' id='caixalogin'>
-        <h1>Login</h1>
+      <div class='caixa-login' id='caixalogin'>
+        <h1 style="font-weight: bold;">Login</h1>
         <input name="email" type='email' placeholder='E-mail'>
         <br><br>
 
         <input name="senha" type='password' id='senha' placeholder='Senha'>
         <i class='bi bi-eye-fill' id='btn-senha' onclick='mostrarsenha()'></i>
         <br><br>
-        <input name="telefone"  type='text' id='fone' placeholder='Telefone'>
 
-        <br><br>
-        <a href='index.php'>
-          <button>CRIAR CONTA</button>
-        </a>
-        <br><br>
         <a href='index.php'>
           <button>ENTRAR</button>
         </a>
+        <br><br>
 
-        <h6>Não desejo me conectar agora</h6>
+        <h6 class="criar">Não tem uma conta?</h6>
+        <a href="index.php" style="color: black;"><h6>Não desejo me conectar agora</h6></a>
       </div>
     </div>
   </form>

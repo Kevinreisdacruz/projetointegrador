@@ -26,7 +26,7 @@ class cliente{
         $stmt = $this->bd->prepare($sql);
         $stmt->bindparam(':email', $this->email, PDO::PARAM_STR);
         $stmt->bindparam(':senha', $this->senha, PDO::PARAM_STR);
-        $stmt->bindparam(':senha', $this->telefone, PDO::PARAM_STR);
+        $stmt->bindparam(':telefone', $this->telefone, PDO::PARAM_STR);
 
         if($stmt->execute()){
             return true;
