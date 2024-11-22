@@ -112,6 +112,46 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
 
 <!-- html da exclusao de cadastro termina aqui -->
 
+
+
+<!-- html de alteracao de cadstro comeca aqui -->
+
+<div id="container-alterar">
+    <div class="box-alterar">
+        <div class="fundo-alterar">
+
+            <div class="titulo-alterar">
+                <div class="escrita-alterar">
+                    <h2 style="font-weight: bold;">ALTERAR INFORMAÇÕES</h2>
+                </div>
+            </div>
+
+            <div class="inf-alteracoes">
+                <input type="text" placeholder="EMAIL">
+            </div>
+            <div class="inf-alteracoes">
+                <input type="text" placeholder="SENHA">
+            </div>
+            <div class="inf-alteracoes">
+                <input type="text" placeholder="TELEFONE">
+            </div>
+
+            <div class="botoes-alteracoes">
+              <a href="index.php">
+                <button class="btn-alteracoes" style="font-weight: bold;">CONFIRMAR ALTERACÕES</button><br>
+              </a>
+              <a href="index.php">
+                <button class="btn-esquecer-alteracoes" style="font-weight: bold;">CANCELAR ALTERACÕES</button>
+              </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- html de alteracao de cadastro termina aqui -->
+
+
   
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
@@ -133,12 +173,14 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
           </li>
         </ul>
 
+        <img src="imagelogos/user-icon.png" alt="" style="width: 33px; margin-right: 1rem;">
+
         <div class="dropdown"> 
           <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #A8D2A0; border: solid 0px;margin-right: 1rem;">
             PERFIL
           </button>
           <ul class="dropdown-menu">
-            <li><a href="alteracoes.php"><button class="dropdown-item" type="button">INFORMAÇÕES E ALTERAÇÕES</button></a></li>
+            <li><button id="alteracao" class="dropdown-item" type="button">INFORMAÇÕES E ALTERAÇÕES</button></li>
             <li><button id="exclusao" class="dropdown-item" type="button">EXCLUIR CONTA</button></li>
             <li><button class="dropdown-item" type="button"></button></li>
           </ul>

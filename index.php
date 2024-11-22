@@ -62,6 +62,8 @@ include_once 'funcoes.php';
 </div>
 
 
+
+
 <div class='box'>
   <div class='fundosobrenos shadow-sm' data-aos='zoom-in'>
     <h1>SOBRE NÓS</h1>

@@ -159,8 +159,6 @@ div i{
 /* aqui acaba o css do popup de login */
 
 
-
-
 /* aqui comeca o css do popup de cadastro */
 
 .caixa-cadastro{
@@ -173,7 +171,7 @@ div i{
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 0 10px black;
-    animation: animacao-login 1s; 
+    animation: animacao-popup 1s; 
 
     input{
         padding: 10px;
@@ -211,7 +209,7 @@ div i{
     }
 }
 
-@keyframes  animacao-login {
+@keyframes  animacao-popup {
     from{
         scale: 0;
     }
@@ -249,6 +247,7 @@ div i{
     height: 100vh;
     z-index: 2;
     backdrop-filter: blur(2px);
+    animation: animacao-popup 1s; 
 
 
     .fundo-excluir {
@@ -343,6 +342,98 @@ div i{
     
 }
 
-
-
 /* aqui termina popup de exclusao de cadastro */
+
+
+/* aqui comeca popup de alteracao de cadastro */
+
+#container-alterar{
+    display: flex;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+    animation: animacao-popup 1s; 
+}
+
+.fundo-alterar {
+    margin-top: 2rem;
+    width: 28rem;
+    height: 33rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+
+
+    .titulo-alterar {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+
+        .escrita-alterar {
+            margin-top: 1rem;
+            text-align: center;
+            width: 35rem;
+            height: 2.5rem;
+            background-color: #A8D2A0;
+            color: white;
+            border-radius: 5px;
+    
+        }
+    }
+
+    .inf-alteracoes{
+        margin: 3rem;
+
+        input {
+            text-decoration: none;
+            width: 20rem;
+            padding: 10px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            outline: none;
+            font-size: 15px;
+
+        }
+
+    }
+    .botoes-alteracoes{
+        .btn-alteracoes{
+            margin: 0.5rem;
+            width: 15rem;
+            height: 2rem;
+            text-decoration: none;
+            background-color: red;
+            color: white;
+            border: solid 1px;
+            border-radius: 5px;
+            transition: all ease-in-out 0.7s;
+        }
+
+        .btn-alteracoes:hover{
+            scale: 1.1;
+        }
+
+        .btn-esquecer-alteracoes{
+            width: 15rem;
+            height: 2rem;
+            text-decoration: none;
+            background-color:  #A8D2A0;
+            color: white;
+            border: solid 1px;
+            border-radius: 5px;
+            transition: all ease-in-out 0.7s;
+        }
+
+        .btn-esquecer-alteracoes:hover{
+            scale: 1.1;
+        }
+    }
+}
+
+/* aqui termina popup de alteracao de cadastro */

@@ -1,11 +1,10 @@
-$('.img-cartao').click(function cartao() {
+$('.img-cartao').click(function cartao(){
   $('.box').hide();
   $('.box').before(`<div class='box2'>
     <div class='fundo-cartao'>
       <div class='imagem-cartao'>
         <img src='imagelogos/cartoes-paginapagamentocartao.png' alt=''>
       </div>
-
 
       <div class='inf'>
         <input id='titular' type='text' required='required'>

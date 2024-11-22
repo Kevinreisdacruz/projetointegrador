@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-
-
 * {
     font-family: "Inter", sans-serif;
 
@@ -19,12 +16,11 @@
 
 .interior-carrinho {
     width: 40rem;
-    height: 50rem;
+    height: 55rem;
     background-color: white;
     border-radius: 2rem;
 
     .produtos-carrinho {
-
         float: left;
         padding: 2rem;
 
@@ -37,11 +33,32 @@
             flex-direction: row;
 
             img {
-                border-radius: 2rem;
+                
+                border-radius: 1rem;
             }
 
+            
         }
+        
+        .add-dimin{
+            display: flex;
+            gap: 0.5rem;
+            margin-left: 3rem;
+            
+            
 
+            button{ 
+                width: 1.4rem;
+                height: 1.7rem;
+                border-radius: 0.2rem;
+                border: solid 1px #A8D2A0;
+                background-color: #A8D2A0;
+                color: white;
+                
+
+            }
+            
+        }
 
 
     }

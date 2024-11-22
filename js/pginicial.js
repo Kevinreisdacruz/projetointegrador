@@ -5,7 +5,7 @@ login.addEventListener("click",abrir);
 
 
 function abrir(){
-    caixalogin.style.display = "flex";
+  caixalogin.style.display = "flex";
 }
 
 $('.criar').click(function conta(){
@@ -46,8 +46,20 @@ var exclusao = document.getElementById('exclusao');
 exclusao.addEventListener("click",excluir)
 
 function excluir(){
-    caixaexcluir.style.display = "flex";
-}
+  caixaexcluir.style.display = "flex";
+};
+
+
+
+
+var caixaalterar = document.getElementById('container-alterar');
+var alteracao = document.getElementById('alteracao');
+alteracao.addEventListener("click",alterar)
+
+function alterar(){
+  caixaalterar.style.display = "flex";
+
+};
 
 AOS.init()
 

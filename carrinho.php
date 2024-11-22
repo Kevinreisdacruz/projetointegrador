@@ -9,25 +9,40 @@ include 'navbar.php'
         <img src="imagemassa/massamenta-carrinho.png" alt="">
         <h6 style="font-weight: bold; padding-left: 1rem;">SORVETE  MASSA DE MENTA</h6> 
       </div><br>
+      <div class="add-dimin">
+        <button>-</button>
+        <h6 style="font-size: 1.5rem;">0</h6>
+        <button>+</button>
+      </div>
       
 
       <div class="image-produto">
         <img src="imagemilkshake/milkpistache-carrinho.png" alt="">
         <h6 style="font-weight: bold; padding-left: 1rem;">MILKSHAKE DE PISTACHE</h6> 
-        <hr>
+      
       </div><br>
+      <div class="add-dimin">
+        <button>-</button>
+        <h6 style="font-size: 1.5rem;">0</h6>
+        <button>+</button>
+      </div>
       
 
       <div class="image-produto">
         <img src="imagepicoles/picolechocolate-carrinho.png" alt="">
         <h6 style="font-weight: bold; padding-left: 1rem;">PICOLE DE CHOCOLATE</h6> 
       </div><br>
+      <div class="add-dimin">
+        <button>-</button>
+        <h6 style="font-size: 1.5rem;">0</h6>
+        <button>+</button>
+      </div>
       
 
       
     </div>
+    
     <hr style="width: 100%;">
-
     <div class="resumo">
       <h4 style="font-weight: bold; ">RESUMO DO PEDIDO</h4>
 
