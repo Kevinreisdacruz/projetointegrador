@@ -89,16 +89,13 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
     </div>
 
     <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SEU EMAIL</span>
+      <input type="text" required='required' placeholder="CONFIRME SEU EMAIL">
     </div>
     <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SUA SENHA</span>
+      <input type="text" required='required' placeholder="CONFIRME SUA SENHA">
     </div>
     <div class="inf-excluir">
-      <input type="text" required='required'>
-      <span>CONFIRME SEU TELEFONE</span>
+      <input type="text" required='required' placeholder="CONFIRME SEU TELEFONE">
     </div>
 
     <div class="botoes-excluir">
