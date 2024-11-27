@@ -4,7 +4,7 @@ include_once 'funcoes.php';
 include_once 'configs/database.php';
 include_once 'objetos/clientefinal.php';
 
-if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($_POST['telefone_cadastrar'])&& isset($_POST['cadastrar'])){
+if (isset($_POST['email_cadastrar']) && isset($_POST['senha_cadastrar']) && isset($_POST['telefone_cadastrar']) && isset($_POST['cadastrar'])) {
   $database = new database();
   $db = $database->conectar();
   $cliente = new cliente($db);
@@ -44,7 +44,7 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
 
 <body>
 
-<!-- aqui a baixo popup de login -->
+  <!-- aqui a baixo popup de login -->
 
 
   <form action='' method="post">
@@ -64,95 +64,84 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
         <br><br>
 
         <h6 class="criar">Não tem uma conta?</h6>
-        <a href="index.php" style="color: black;"><h6>Não desejo me conectar agora</h6></a>
+        <a href="index.php" style="color: black;">
+          <h6>Não desejo me conectar agora</h6>
+        </a>
       </div>
     </div>
   </form>
 
-  
+
   <!-- aqui termina o popup de login -->
 
 
   <!-- aqui a baixo e o html do popup de exclusao de conta -->
 
   <div id="container-excluir">
-  <div class="fundo-excluir" id="funcoexclusao">
+    <div class="fundo-excluir" id="funcoexclusao">
 
-    <div class="titulo-excluir">
-      <div class="escrita-excluir">
-        <h2 style="font-weight: bold;">EXCLUIR CONTA</h2>
+      <div class="titulo-excluir">
+        <div class="escrita-excluir">
+          <h2 style="font-weight: bold;">EXCLUIR CONTA</h2>
+        </div>
       </div>
-    </div>
 
-    <div class="detalhes-exclusao">
-      <h5>PARA EXCLUIR SUA CONTA <br> INFORME SUAS INFORMAÇÕES DE CADASTRO</h5>
-    </div>
+      <div class="inf-exclusao">
+        <input type="text" required='required' placeholder="CONFIRME SEU EMAIL">
+        <input type="text" required='required' placeholder="CONFIRME SUA SENHA">
+        <input type="text" id="fone" required='required' placeholder="CONFIRME SEU TELEFONE">
+      </div>
 
-    <div class="inf-excluir">
-      <input type="text" required='required' placeholder="CONFIRME SEU EMAIL">
-    </div>
-    <div class="inf-excluir">
-      <input type="text" required='required' placeholder="CONFIRME SUA SENHA">
-    </div>
-    <div class="inf-excluir">
-      <input type="text" required='required' placeholder="CONFIRME SEU TELEFONE">
-    </div>
+      <div class="botoes-excluir">
+        <a href="index.php">
+          <button class="btn-excluir">EXCLUIR</button><br>
+        </a>
+        <a href="index.php">
+          <button class="btn-esquecer-exclusao">CANCELAR A EXCLUSÃO</button>
+        </a>
+      </div>
 
-    <div class="botoes-excluir">
-      <a href="index.php">
-        <button class="btn-excluir">EXCLUIR</button><br>
-      </a>
-      <a href="index.php">
-        <button class="btn-esquecer-exclusao">CANCELAR A EXCLUSÃO</button>
-      </a>
     </div>
 
   </div>
-</div>
-
-<!-- html da exclusao de cadastro termina aqui -->
 
 
+  <!-- html da exclusao de cadastro termina aqui -->
 
-<!-- html de alteracao de cadstro comeca aqui -->
 
-<div id="container-alterar">
-    <div class="box-alterar">
-        <div class="fundo-alterar">
 
-            <div class="titulo-alterar">
-                <div class="escrita-alterar">
-                    <h2 style="font-weight: bold;">ALTERAR INFORMAÇÕES</h2>
-                </div>
-            </div>
+  <!-- html de alteracao de cadstro comeca aqui -->
 
-            <div class="inf-alteracoes">
-                <input type="text" placeholder="EMAIL">
-            </div>
-            <div class="inf-alteracoes">
-                <input type="text" placeholder="SENHA">
-            </div>
-            <div class="inf-alteracoes">
-                <input type="text" placeholder="TELEFONE">
-            </div>
+  <div id="container-alterar">
+    <div class="fundo-alterar">
 
-            <div class="botoes-alteracoes">
-              <a href="index.php">
-                <button class="btn-alteracoes" style="font-weight: bold;">CONFIRMAR ALTERACÕES</button><br>
-              </a>
-              <a href="index.php">
-                <button class="btn-esquecer-alteracoes" style="font-weight: bold;">CANCELAR ALTERACÕES</button>
-              </a>
-            </div>
-
+      <div class="titulo-alterar">
+        <div class="escrita-alterar">
+          <h3 style="font-weight: bold; font-size: 2rem;">ALTERAÇÃO</h3>
         </div>
+      </div>
+
+      <div class="inf-alteracoes">
+        <input type="text" placeholder="COLOQUE AQUI SEU NOVO EMAIL">
+        <input type="text" placeholder="COLOQUE AQUI SUA NOVA SENHA">
+        <input type="text" placeholder="COLOQUE AQUI SEU NOVO TELEFONE">
+      </div>
+
+      <div class="botoes-alteracoes">
+        <a href="index.php">
+          <button class="btn-alteracoes" style="font-weight: bold;">CONFIRMAR ALTERACÕES</button><br>
+        </a>
+        <a href="index.php">
+          <button class="btn-esquecer-alteracoes" style="font-weight: bold;">CANCELAR ALTERACÕES</button>
+        </a>
+      </div>
+
     </div>
-</div>
 
-<!-- html de alteracao de cadastro termina aqui -->
+  </div>
 
+  <!-- html de alteracao de cadastro termina aqui -->
 
-  
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcss">
     <div class="container-fluid">
@@ -175,7 +164,7 @@ if(isset($_POST['email_cadastrar'])&& isset($_POST['senha_cadastrar'])&& isset($
 
         <img src="imagelogos/user-icon.png" alt="" style="width: 33px; margin-right: 1rem;">
 
-        <div class="dropdown"> 
+        <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #A8D2A0; border: solid 0px;margin-right: 1rem;">
             PERFIL
           </button>

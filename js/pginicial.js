@@ -35,22 +35,16 @@ $('.criar').click(function conta(){
     $('#fone').mask('(00) 00000-0000');
 });
 
-
-
-
-
-
-
 var caixaexcluir = document.getElementById('container-excluir');
 var exclusao = document.getElementById('exclusao');
 exclusao.addEventListener("click",excluir)
+$('#fone').mask('(00) 00000-0000');
 
 function excluir(){
   caixaexcluir.style.display = "flex";
+ 
+  
 };
-
-
-
 
 var caixaalterar = document.getElementById('container-alterar');
 var alteracao = document.getElementById('alteracao');
