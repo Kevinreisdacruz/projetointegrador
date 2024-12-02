@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@media only screen and (max-width: 610px) and (min-width:412px)  {
+
+    .box3 {
+       min-width: 100%;
+        
+        .holder{
+            padding: 10rem;
+        }
+    }
+  }
+
 .box3{
-    width: 100%;
-    
-    
+    min-width: 100%;
+    background-color: #325037;
 }
 
 .interior{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    min-height: 20rem;
     background-color: #325037;
     text-align: center;
     flex-wrap: wrap;

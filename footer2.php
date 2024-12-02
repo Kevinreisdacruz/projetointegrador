@@ -21,10 +21,11 @@
                 </a>
             </div>
         </div>
-       
+        
         <div class="aside-right">
-        ENTRE EM CONTATO: <br><br> Telefone: (19)99892-8999 <br> E-mail: realegelatosrc@gmail.com
+            ENTRE EM CONTATO: <br> Telefone: (19)99892-8999 <br> E-mail: realegelatosrc@gmail.com
         </div>
+       
 
     </div>
 </div>
