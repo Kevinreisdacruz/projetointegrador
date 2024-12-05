@@ -34,15 +34,20 @@
 }
 
 .holder{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center ; 
+    width: 100vw;
     flex: 2;
     flex-wrap: wrap;
 }
 
 .redes-sociais{
    padding: 1rem;
+   
+   a {
+    text-decoration: none;
+   }
 
    .rede{
     margin: 0.5rem;
