@@ -109,7 +109,6 @@ if (isset($_POST['email_cadastrar']) && isset($_POST['senha_cadastrar']) && isse
   <!-- html da exclusao de cadastro termina aqui -->
 
 
-
   <!-- html de alteracao de cadstro comeca aqui -->
 
   <div id="container-alterar">

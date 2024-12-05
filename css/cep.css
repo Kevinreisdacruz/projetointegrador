@@ -1,3 +1,4 @@
+
 .box {
     display: flex;
     justify-content: center;
@@ -12,13 +13,15 @@
     height: 33rem;
     background-color: white;
     border-radius: 20px;
-    margin: 0 auto;
-    position: relative;
     padding: 1rem;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 
     .titulo-cep{
-        width: 23rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        text-align: center;
         height: 3rem;
         border-radius: 0.5rem;
         color: white;
@@ -27,12 +30,12 @@
 
     .inf-cep{
         margin-top: 1.5rem;
-        display: flex;
         justify-content: center;
         
         input {
             text-decoration: none;
-            width: 100%;
+            width: 90%;
+            margin-top: 1rem;
             padding: 7px;
             outline: none;
             border: 1px solid black;
@@ -41,18 +44,6 @@
             font-size: 15px;
             
         }
-    
-        span {
-            position: absolute;
-            left: 13px;
-            padding: 10px;
-            pointer-events: none;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            transition: 0.5s;
-        }
-        
-
     }
     
     .confirmar-cep{ 
@@ -74,15 +65,4 @@
         }
 
     }
-    
-}
-
-.inf-cep input:valid~span,
-.inf-cep input:focus~span {
-    color: #4bc4da;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.7rem;
-    padding: 0 10px;
-    background: white;
-    
 }
